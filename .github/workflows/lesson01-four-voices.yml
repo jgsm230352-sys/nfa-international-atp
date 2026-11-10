@@ -29,8 +29,16 @@ jobs:
           async def main():
               for i, text in enumerate(chapters, 1):
                   output = f"audio/nfa_lesson01_chapter{i:02d}_natural.mp3"
-                  await edge_tts.Communicate(text, voice="en-US-GuyNeural", rate="-12%", pitch="-2Hz").save(output)
-                  print(output)
+                  for attempt in range(1, 4):
+                      try:
+                          await edge_tts.Communicate(text, voice="en-US-GuyNeural", rate="-12%", pitch="-2Hz").save(output)
+                          break
+                      except Exception as exc:
+                          print(f"Chapter {i}, attempt {attempt}: {exc}", flush=True)
+                          if attempt == 3:
+                              raise
+                          await asyncio.sleep(attempt * 5)
+                  print(output, flush=True)
           asyncio.run(main())
           PY
           python /tmp/lesson01.py
@@ -40,4 +48,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add audio/nfa_lesson01_chapter0{1,2,3,4}_natural.mp3
-          git diff --cached --quiet || (git commit -m "Complete four natural voice narrations for lesson 01" && git push)
+          git diff --cached --quiet || git commit -m "Complete four natural voice narrations for lesson 01"
+          git pull --rebase origin main
+          git push origin HEAD:main
