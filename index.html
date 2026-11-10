@@ -50,8 +50,8 @@ function lesson6SpeakChapter(i){
 if(!("speechSynthesis" in window)||!window.SpeechSynthesisUtterance){lesson6Status("Voz não disponível neste navegador.");return}
 const c=lesson6.englishChapters[i];if(!c)return;
 lesson6StopSpeech();const token=lesson6SpeechToken,synth=window.speechSynthesis;
-const plain=(c.title+". "+c.body).replace(/\\[([^\\]]+)\\]\\((https?:\\/\\/[^)]+)\\)/g,"$1").replace(/[#*|_]/g," ").replace(/https?:\\/\\/\\S+/g,"").replace(/\\s+/g," ").trim();
-const chunks=plain.match(/.{1,260}(?:[.!?](?:\\s|$)|\\s|$)/g)||[plain];
+const plain=(c.title+". "+c.body).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,"$1").replace(/[#*|_]/g," ").replace(/https?:\/\/\S+/g,"").replace(/\s+/g," ").trim();
+const chunks=plain.match(/.{1,260}(?:[.!?](?:\s|$)|\s|$)/g)||[plain];
 let pos=0;const voice=pickEnglishVoice();
 function next(){
 if(token!==lesson6SpeechToken)return;
@@ -65,7 +65,7 @@ lesson6Status("Narrando capítulo "+(i+1)+" em inglês americano"+(voice?" — "
 }
 function lesson6EnglishView(){
 const english=lesson6Language==="en",chapters=english?lesson6.englishChapters:lesson6.chapters;
-return '<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>Idioma da Aula 06 / Lesson 06 language</strong><div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="'+(!english?'active':'')+'" onclick="lesson6SetLanguage(\\'pt\\')">Português · texto</button><button class="'+(english?'active':'')+'" onclick="lesson6SetLanguage(\\'en\\')">English · text + voice</button></div><p class="muted">'+(english?'Full lesson in American English with browser-based narration.':'Aula completa em português, sem narração.')+'</p></div>'+
+return '<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>Idioma da Aula 06 / Lesson 06 language</strong><div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="'+(!english?'active':'')+'" onclick="lesson6SetLanguage(\'pt\')">Português · texto</button><button class="'+(english?'active':'')+'" onclick="lesson6SetLanguage(\'en\')">English · text + voice</button></div><p class="muted">'+(english?'Full lesson in American English with browser-based narration.':'Aula completa em português, sem narração.')+'</p></div>'+
 chapters.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c.title)+'</summary>'+renderLesson6Markdown(c.body)+(english?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0" lang="en"><strong>American English narration · Chapter '+(i+1)+'</strong><div class="actions" style="justify-content:flex-start;margin-top:9px"><button onclick="lesson6SpeakChapter('+i+')">▶ Play chapter</button><button onclick="lesson6PauseResume()">Pause / Resume</button><button onclick="lesson6StopSpeech()">Stop</button></div><p class="muted" id="lesson6-audio-status" aria-live="polite">Voice provided by your browser. No audio in Portuguese.</p></div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join("")
 }
 
