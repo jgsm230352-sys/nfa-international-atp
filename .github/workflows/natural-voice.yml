@@ -1,0 +1,45 @@
+name: Generate natural American instructor voice
+on:
+  push:
+    paths:
+      - '.github/workflows/natural-voice.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  natural-voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install voice generation tools
+        run: |
+          python -m pip install --disable-pip-version-check edge-tts
+      - name: Generate American English instructor sample
+        run: |
+          mkdir -p audio
+          cat > /tmp/nfa_voice.py <<'PY'
+          import asyncio
+          import edge_tts
+          text = (
+              "Certification framework. "
+              "The Federal Aviation Administration, or F A A, regulates civil aviation certification in the United States. "
+              "Title fourteen of the Code of Federal Regulations contains the applicable rules. "
+              "An Airline Transport Pilot certificate does not replace aircraft ratings, "
+              "medical requirements, or operational authorizations."
+          )
+          async def main():
+              tts = edge_tts.Communicate(text, voice="en-US-GuyNeural", rate="-12%", pitch="-2Hz")
+              await tts.save("audio/nfa_lesson01_chapter01_natural.mp3")
+          asyncio.run(main())
+          PY
+          python /tmp/nfa_voice.py
+          test -s audio/nfa_lesson01_chapter01_natural.mp3
+      - name: Publish sample while preserving existing voice
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/nfa_lesson01_chapter01_natural.mp3
+          git diff --cached --quiet || (git commit -m "Add natural American English voice sample" && git push)
