@@ -16,63 +16,14 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 document.getElementById("lesson").innerHTML=lessons.map((l,i)=>'<option value="'+i+'">Aula '+String(l.n).padStart(2,"0")+' — '+esc(l.title)+'</option>').join("");
 document.getElementById("lesson").onchange=e=>{audioStop();lesson=+e.target.value;idx=0;mode=0;render()};
 document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{tab=b.dataset.tab;render()});
-let audioChapter=-1,audioUtterance=null,audioVoice=null;
-function audioMessage(message){const e=document.getElementById("audio-status");if(e)e.textContent=message}
-function audioStop(){if("speechSynthesis" in window)window.speechSynthesis.cancel();audioChapter=-1;audioUtterance=null;audioMessage("Leitura interrompida.")}
-function pickEnglishVoice(){const v=window.speechSynthesis.getVoices();return v.find(x=>x.lang.toLowerCase()==="en-us"&&x.localService)||v.find(x=>x.lang.toLowerCase()==="en-us")||v.find(x=>x.lang.toLowerCase().startsWith("en"))||null}
-function speakChapter(i){
-if(!("speechSynthesis" in window)||!window.SpeechSynthesisUtterance){audioMessage("Síntese de voz indisponível neste navegador.");return}
-const synth=window.speechSynthesis;
-if(audioChapter===i&&synth.paused){synth.resume();audioMessage("Continuando a leitura.");return}
-if(audioChapter===i&&synth.speaking){synth.pause();audioMessage("Leitura pausada.");return}
-synth.cancel();audioChapter=i;
-const u=new SpeechSynthesisUtterance(englishLessonOne[i][0]+". "+englishLessonOne[i][1]);audioUtterance=u;
-u.lang="en-US";u.rate=0.88;u.pitch=1;u.volume=1;
-const v=pickEnglishVoice();if(v)u.voice=v;
-u.onstart=()=>audioMessage("Reproduzindo áudio em inglês"+(v?" — "+v.name:"")+".");
-u.onend=()=>{audioChapter=-1;audioUtterance=null;audioMessage("Leitura concluída.")};
-u.onerror=e=>{audioChapter=-1;audioUtterance=null;audioMessage("Falha na reprodução: "+(e.error||"erro não identificado")+".")};
-audioMessage("Iniciando voz inglesa"+(v?" — "+v.name:"")+".");
-synth.speak(u);
-}
-
-let lesson6Language="pt",lesson6SpeechToken=0,lesson6SpeechPaused=false;
-function lesson6SetLanguage(lang){lesson6StopSpeech();lesson6Language=lang;render()}
-function lesson6StopSpeech(){lesson6SpeechToken++;lesson6SpeechPaused=false;if("speechSynthesis" in window)window.speechSynthesis.cancel();const e=document.getElementById("lesson6-audio-status");if(e)e.textContent="Leitura interrompida."}
-function lesson6PauseResume(){
-if(!("speechSynthesis" in window))return;
-const s=window.speechSynthesis;
-if(s.paused){s.resume();lesson6SpeechPaused=false;lesson6Status("Leitura retomada.")}
-else if(s.speaking){s.pause();lesson6SpeechPaused=true;lesson6Status("Leitura pausada.")}
-}
-function lesson6Status(t){document.querySelectorAll(".lesson6-audio-status").forEach(e=>e.textContent=t)}
-let lesson6SpeechQueue=[],lesson6SpeechIndex=0,lesson6CurrentUtterance=null;
-function lesson6SpeakChapter(i){
-const status="Narração do capítulo "+(i+1);
-if(!("speechSynthesis" in window)||typeof SpeechSynthesisUtterance==="undefined"){lesson6Status("Este navegador não oferece síntese de voz. Abra no Safari e confira as configurações de áudio.");return}
-const c=lesson6.englishChapters&&lesson6.englishChapters[i];if(!c){lesson6Status("Capítulo em inglês indisponível.");return}
-lesson6StopSpeech();const token=lesson6SpeechToken,synth=window.speechSynthesis;
-const plain=(c.title+". "+c.body).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,"$1").replace(/[#*|_]/g," ").replace(/https?:\/\/\S+/g,"").replace(/\s+/g," ").trim();
-lesson6SpeechQueue=plain.match(/.{1,170}(?:[.!?](?:\s|$)|\s|$)/g)||[plain];lesson6SpeechIndex=0;
-function playNext(){
-if(token!==lesson6SpeechToken)return;
-if(lesson6SpeechIndex>=lesson6SpeechQueue.length){lesson6Status("Narração concluída.");lesson6CurrentUtterance=null;return}
-const u=new SpeechSynthesisUtterance(lesson6SpeechQueue[lesson6SpeechIndex++]);
-lesson6CurrentUtterance=u;u.lang="en-US";u.rate=0.88;u.pitch=1;u.volume=1;
-const voice=pickEnglishVoice();if(voice)u.voice=voice;
-u.onstart=()=>{if(token===lesson6SpeechToken)lesson6Status(status+" em reprodução"+(voice?" — "+voice.name:"")+".")};
-u.onend=()=>{if(token===lesson6SpeechToken)playNext()};
-u.onerror=e=>{if(token!==lesson6SpeechToken)return;if(e.error==="interrupted"||e.error==="canceled")return;lesson6Status("Não foi possível iniciar a voz ("+(e.error||"erro do Safari")+"). Verifique volume e voz inglesa do iPhone.")};
-try{synth.speak(u)}catch(e){lesson6Status("Falha na voz do Safari: "+e.message)}
-}
-lesson6Status("Preparando "+status+"…");playNext();
-}
+let lesson6Language="pt";
+function audioStop(){}
+function lesson6SetLanguage(lang){lesson6Language=lang;render()}
 function lesson6EnglishView(){
 const english=lesson6Language==="en",chapters=english?lesson6.englishChapters:lesson6.chapters;
-return '<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>Idioma da Aula 06 / Lesson 06 language</strong><div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="'+(!english?'active':'')+'" onclick="lesson6SetLanguage(\'pt\')">Português · texto</button><button class="'+(english?'active':'')+'" onclick="lesson6SetLanguage(\'en\')">English · text + voice</button></div><p class="muted">'+(english?'Full lesson in American English with browser-based narration.':'Aula completa em português, sem narração.')+'</p></div>'+
-chapters.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c.title)+'</summary>'+renderLesson6Markdown(c.body)+(english?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0" lang="en"><strong>American English narration · Chapter '+(i+1)+'</strong><div class="actions" style="justify-content:flex-start;margin-top:9px"><button onclick="lesson6SpeakChapter('+i+')">▶ Play chapter</button><button onclick="lesson6PauseResume()">Pause / Resume</button><button onclick="lesson6StopSpeech()">Stop</button></div><p class="muted lesson6-audio-status" aria-live="polite">Voice provided by your browser. No audio in Portuguese.</p></div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join("")
+return '<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>Idioma da Aula 06 / Lesson 06 language</strong><div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="'+(!english?'active':'')+'" onclick="lesson6SetLanguage(\'pt\')">Português</button><button class="'+(english?'active':'')+'" onclick="lesson6SetLanguage(\'en\')">English</button></div></div>'+
+chapters.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c.title)+'</summary>'+renderLesson6Markdown(c.body)+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join("")
 }
-
 function renderLesson6Markdown(md){
  const lines=String(md).split(/\r?\n/);let out="",inTable=false,inList=false;
  function inline(t){return esc(t).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,(_m,label,url)=>'<a href="'+url+'" target="_blank" rel="noopener">'+label+'</a>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>')}
@@ -93,7 +44,7 @@ function renderLesson6Markdown(md){
 function qs(){return lesson===5&&lesson6?lesson6.questions[mode].map(q=>[q.q,q.options,q.answer,q.chapter,q.explanation]):lesson===4?bank[mode]:[[ "What is the main regulatory reference for FAA pilot certification?",["14 CFR Part 61","Part 97","Part 119"],0,0,"Part 61 rege a certificação de pilotos."],["Which statement is correct?",["Foreign experience automatically grants FAA ATP","Eligibility must be checked against applicable FAA requirements","NFA issues FAA certificates"],1,1,"A elegibilidade depende das regras aplicáveis."]]}
 function render(){document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));let l=lessons[lesson];document.getElementById("status").textContent=lesson===5?"Aula 06 · 5 capítulos aprofundados · 40 questões originais":lesson===4?"Aula 05 · 16 capítulos · 20 questões":"Aula "+String(l.n).padStart(2,"0")+" · conteúdo estruturado em revisão editorial";
 if(tab==="resumo"){el.innerHTML='<h2>'+esc(l.title)+'</h2><p>Estudo orientado para a certificação FAA ATP Airplane Multiengine Land (AMEL). Consulte sempre as normas vigentes e os requisitos aplicáveis ao seu caso.</p><p><strong>'+l.chap.length+' capítulos</strong> · '+(lesson===5?"duas baterias de 20 questões":lesson===4?"duas baterias de 10 questões":"avaliação introdutória de 2 questões")+'</p><p class="muted">As aulas 01–04 são versões estruturadas para revisão. A Aula 05 reúne os tópicos consolidados.</p><button class="primary" onclick="tab=\'aula\';render()">Abrir aula completa</button>'}
-else if(tab==="aula"){el.innerHTML='<h2>'+esc(l.title)+'</h2>'+(lesson===5&&lesson6.englishChapters?lesson6EnglishView():l.chap.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c[0])+'</summary>'+(lesson===5?renderLesson6Markdown(c[1]):'<p>'+esc(c[1])+'</p>')+(lesson===0?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>English · American aviation English</strong><p lang="en">'+esc(englishLessonOne[i][1])+'</p>'+'<p class="muted"><strong>Áudio em inglês americano · Capítulo '+(i+1)+'</strong></p><audio controls preload="none" style="width:100%;max-width:100%" src="audio/nfa_lesson01_chapter0'+(i+1)+'_natural.mp3"></audio>'+'</div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join(""))+'<button class="primary" onclick="tab=\'avaliacao\';render()">Ir para avaliação</button>'}
+else if(tab==="aula"){el.innerHTML='<h2>'+esc(l.title)+'</h2>'+(lesson===5&&lesson6.englishChapters?lesson6EnglishView():l.chap.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c[0])+'</summary>'+(lesson===5?renderLesson6Markdown(c[1]):'<p>'+esc(c[1])+'</p>')+(lesson===0?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>English · American aviation English</strong><p lang="en">'+esc(englishLessonOne[i][1])+'</p>'+'</div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join(""))+'<button class="primary" onclick="tab=\'avaliacao\';render()">Ir para avaliação</button>'}
 else{let q=qs(),k=lesson+"-"+mode,arr=saved[k]||(saved[k]={answers:{},checked:{}}),item=q[idx],answered=Object.keys(arr.answers).length,score=q.filter((x,i)=>+arr.answers[i]===x[2]).length;el.innerHTML='<h2>Avaliação</h2>'+(lesson>=4?'<div class="modes"><button class="'+(!mode?"active":"")+'" onclick="mode=0;idx=0;render()">Prova teórica</button><button class="'+(mode?"active":"")+'" onclick="mode=1;idx=0;render()">Casos práticos</button></div>':'')+'<p class="muted">Questão '+(idx+1)+' de '+q.length+' · '+answered+' respondidas</p><div class="progress"><div style="width:'+(answered/q.length*100)+'%"></div></div><p class="question">'+esc(item[0])+'</p>'+item[1].map((o,i)=>'<label class="choice"><input type="radio" name="choice" value="'+i+'" '+(arr.answers[idx]===String(i)?"checked":"")+'>'+esc(o)+'</label>').join("")+'<button onclick="check()" '+(arr.answers[idx]===undefined?"disabled":"")+'>Ver correção</button>'+(arr.checked[idx]?'<div class="feedback"><strong>'+(+arr.answers[idx]===item[2]?"Resposta correta":"Revisão necessária")+'</strong><p>'+esc(item[4])+'</p><button onclick="review('+item[3]+')">Reestudar capítulo</button></div>':'')+'<div class="actions" style="margin-top:15px"><button onclick="idx--;render()" '+(idx===0?"disabled":"")+'>Anterior</button><button onclick="idx++;render()" '+(idx===q.length-1?"disabled":"")+'>Próxima</button></div><hr><button class="primary" onclick="result()" '+(answered!==q.length?"disabled":"")+'>Corrigir bateria completa</button><div id="result"></div>';document.querySelectorAll('input[name="choice"]').forEach(r=>r.onchange=e=>{arr.answers[idx]=e.target.value;delete arr.checked[idx];render()});}}
 function check(){let a=saved[lesson+"-"+mode];a.checked[idx]=true;render()}
 function review(c){tab="aula";render();let d=document.getElementById("c"+c);if(d){d.open=true;d.scrollIntoView({behavior:"smooth",block:"center"})}}
