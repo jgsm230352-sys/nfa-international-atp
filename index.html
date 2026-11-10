@@ -45,28 +45,32 @@ const s=window.speechSynthesis;
 if(s.paused){s.resume();lesson6SpeechPaused=false;lesson6Status("Leitura retomada.")}
 else if(s.speaking){s.pause();lesson6SpeechPaused=true;lesson6Status("Leitura pausada.")}
 }
-function lesson6Status(t){const e=document.getElementById("lesson6-audio-status");if(e)e.textContent=t}
+function lesson6Status(t){document.querySelectorAll(".lesson6-audio-status").forEach(e=>e.textContent=t)}
+let lesson6SpeechQueue=[],lesson6SpeechIndex=0,lesson6CurrentUtterance=null;
 function lesson6SpeakChapter(i){
-if(!("speechSynthesis" in window)||!window.SpeechSynthesisUtterance){lesson6Status("Voz não disponível neste navegador.");return}
-const c=lesson6.englishChapters[i];if(!c)return;
+const status="Narração do capítulo "+(i+1);
+if(!("speechSynthesis" in window)||typeof SpeechSynthesisUtterance==="undefined"){lesson6Status("Este navegador não oferece síntese de voz. Abra no Safari e confira as configurações de áudio.");return}
+const c=lesson6.englishChapters&&lesson6.englishChapters[i];if(!c){lesson6Status("Capítulo em inglês indisponível.");return}
 lesson6StopSpeech();const token=lesson6SpeechToken,synth=window.speechSynthesis;
 const plain=(c.title+". "+c.body).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,"$1").replace(/[#*|_]/g," ").replace(/https?:\/\/\S+/g,"").replace(/\s+/g," ").trim();
-const chunks=plain.match(/.{1,260}(?:[.!?](?:\s|$)|\s|$)/g)||[plain];
-let pos=0;const voice=pickEnglishVoice();
-function next(){
+lesson6SpeechQueue=plain.match(/.{1,170}(?:[.!?](?:\s|$)|\s|$)/g)||[plain];lesson6SpeechIndex=0;
+function playNext(){
 if(token!==lesson6SpeechToken)return;
-if(pos>=chunks.length){lesson6Status("Narração concluída.");return}
-const u=new SpeechSynthesisUtterance(chunks[pos++]);u.lang="en-US";u.rate=0.88;u.pitch=1;if(voice)u.voice=voice;
-u.onend=()=>{if(token===lesson6SpeechToken)next()};
-u.onerror=e=>{if(token===lesson6SpeechToken)lesson6Status("Reprodução interrompida: "+(e.error||"erro")+".")};
-synth.speak(u)
+if(lesson6SpeechIndex>=lesson6SpeechQueue.length){lesson6Status("Narração concluída.");lesson6CurrentUtterance=null;return}
+const u=new SpeechSynthesisUtterance(lesson6SpeechQueue[lesson6SpeechIndex++]);
+lesson6CurrentUtterance=u;u.lang="en-US";u.rate=0.88;u.pitch=1;u.volume=1;
+const voice=pickEnglishVoice();if(voice)u.voice=voice;
+u.onstart=()=>{if(token===lesson6SpeechToken)lesson6Status(status+" em reprodução"+(voice?" — "+voice.name:"")+".")};
+u.onend=()=>{if(token===lesson6SpeechToken)playNext()};
+u.onerror=e=>{if(token!==lesson6SpeechToken)return;if(e.error==="interrupted"||e.error==="canceled")return;lesson6Status("Não foi possível iniciar a voz ("+(e.error||"erro do Safari")+"). Verifique volume e voz inglesa do iPhone.")};
+try{synth.speak(u)}catch(e){lesson6Status("Falha na voz do Safari: "+e.message)}
 }
-lesson6Status("Narrando capítulo "+(i+1)+" em inglês americano"+(voice?" — "+voice.name:"")+".");next()
+lesson6Status("Preparando "+status+"…");playNext();
 }
 function lesson6EnglishView(){
 const english=lesson6Language==="en",chapters=english?lesson6.englishChapters:lesson6.chapters;
 return '<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0"><strong>Idioma da Aula 06 / Lesson 06 language</strong><div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="'+(!english?'active':'')+'" onclick="lesson6SetLanguage(\'pt\')">Português · texto</button><button class="'+(english?'active':'')+'" onclick="lesson6SetLanguage(\'en\')">English · text + voice</button></div><p class="muted">'+(english?'Full lesson in American English with browser-based narration.':'Aula completa em português, sem narração.')+'</p></div>'+
-chapters.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c.title)+'</summary>'+renderLesson6Markdown(c.body)+(english?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0" lang="en"><strong>American English narration · Chapter '+(i+1)+'</strong><div class="actions" style="justify-content:flex-start;margin-top:9px"><button onclick="lesson6SpeakChapter('+i+')">▶ Play chapter</button><button onclick="lesson6PauseResume()">Pause / Resume</button><button onclick="lesson6StopSpeech()">Stop</button></div><p class="muted" id="lesson6-audio-status" aria-live="polite">Voice provided by your browser. No audio in Portuguese.</p></div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join("")
+chapters.map((c,i)=>'<details id="c'+i+'"><summary>'+esc(c.title)+'</summary>'+renderLesson6Markdown(c.body)+(english?'<div style="padding:12px;background:#f7f8f7;border-radius:9px;margin:12px 0" lang="en"><strong>American English narration · Chapter '+(i+1)+'</strong><div class="actions" style="justify-content:flex-start;margin-top:9px"><button onclick="lesson6SpeakChapter('+i+')">▶ Play chapter</button><button onclick="lesson6PauseResume()">Pause / Resume</button><button onclick="lesson6StopSpeech()">Stop</button></div><p class="muted lesson6-audio-status" aria-live="polite">Voice provided by your browser. No audio in Portuguese.</p></div>':'')+'<p><a target="_blank" rel="noopener" href="https://www.ecfr.gov/current/title-14">Consultar eCFR oficial</a></p></details>').join("")
 }
 
 function renderLesson6Markdown(md){
