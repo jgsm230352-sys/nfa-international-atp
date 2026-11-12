@@ -462,15 +462,19 @@ The charted NSA requests voluntary avoidance. An FDC NOTAM under §99.7 establis
 ### O que é exigência e o que é método
 **Regra:** 14 CFR aplicável e condições do NOTAM estabelecem obrigações legais. **Orientação FAA:** AIM explica procedimentos e informação operacional; sua formulação deve ser lida como orientação salvo quando incorporada a regra. **Procedimento de operador:** SOP pode estabelecer verificações e divisão de tarefas. **Boa prática:** construir ponto de decisão e alternativa antes do limite. Não confunda esses níveis.
 
+### Relação com o ATP ACS
+Conferi a lista FAA vigente e o FAA-S-ACS-11A. A classificação SUA não aparece como tarefa autônoma com esse título no ATP ACS. Esta aula prepara o candidato para interpretar as regras e aplicar gestão de risco; a NFA não afirma que estes enunciados reproduzem itens do exame oficial. As questões são originais e medem os objetivos ensinados.
+
 ### Referências oficiais consultadas
-1. FAA, *Aeronautical Information Manual*, Chapter 3, Sections 4–5, especialmente 3-4-1 a 3-4-9 e 3-5-3; edição vigente consultada em 12 Nov 2026. Página oficial: https://www.faa.gov/air_traffic/publications/aim_html/
-2. eCFR, Title 14, Part 73, *Special Use Airspace*, incluindo §§73.3 e 73.13; versão corrente consultada em 12 Nov 2026: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73
-3. eCFR, 14 CFR §91.133, *Restricted and prohibited areas*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133
-4. eCFR, 14 CFR §§91.103, 91.137–91.145: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91
-5. eCFR, 14 CFR §99.7, *Special security instructions*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7
-6. FAA, *Special Use Airspace and Air Traffic Control Assigned Airspace—Graphic Map*: https://sua.faa.gov/
-7. FAA, *Temporary Flight Restrictions*: https://tfr.faa.gov/ ; FAA NOTAM Search: https://notams.aim.faa.gov/notamSearch/
-8. FAA Order JO 7400.10H, *Special Use Airspace*, issued 04 Feb 2026, active: https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725
+1. FAA, [Aeronautical Information Manual](https://www.faa.gov/air_traffic/publications/aim_html/), Chapter 3, Sections 4–5, especially 3-4-1 to 3-4-9 and 3-5-3; current edition effective 09 Jul 2026, checked 12 Nov 2026.
+2. eCFR, Title 14, [Part 73 — Special Use Airspace](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73), including §§73.3 and 73.13; version current through 09 Nov 2026, checked 12 Nov 2026.
+3. eCFR, 14 CFR [§91.133 — Restricted and prohibited areas](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133), checked 12 Nov 2026.
+4. eCFR, 14 CFR [Part 91](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91), including §§91.103 and 91.137–91.145, checked 12 Nov 2026.
+5. eCFR, 14 CFR [§99.7 — Special security instructions](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7), checked 12 Nov 2026.
+6. FAA, [Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs), list current on 12 Nov 2026; [FAA-S-ACS-11A, ATP Airplane ACS](https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf), Nov 2023, effective 31 May 2024.
+7. FAA, [Special Use Airspace and Air Traffic Control Assigned Airspace Graphic Map](https://sua.faa.gov/), dynamic status resource; consulted 12 Nov 2026.
+8. FAA, [Temporary Flight Restrictions](https://tfr.faa.gov/) and [NOTAM Search](https://notams.aim.faa.gov/notamSearch/), dynamic resources; consulted 12 Nov 2026.
+9. FAA Order [JO 7400.10H — Special Use Airspace](https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725), issued 04 Feb 2026; active on 12 Nov 2026.
 
 ### Orientação de estudo
 Feche a aula fazendo um briefing de uma rota real: marque um R-area, uma MOA e um NOTAM temporário; declare limites, status, fonte confirmadora, ponto de decisão, alternativa e frase de coordenação. Se não consegue dizer quem autoriza, qual condição vale e onde ficará antes da borda, volte aos capítulos 2, 5 e 6.
@@ -490,15 +494,19 @@ Feche a aula fazendo um briefing de uma rota real: marque um R-area, uma MOA e u
 ### Requirement versus method
 **Rule:** applicable 14 CFR provisions and NOTAM conditions establish legal obligations. **FAA guidance:** the AIM explains procedures and operational information; read its statements as guidance unless incorporated into a rule. **Operator procedure:** SOP may add checks and task allocation. **Good practice:** build a decision point and alternate before the boundary. Do not confuse these levels.
 
+### Relationship to the ATP ACS
+I checked the current FAA ACS list and FAA-S-ACS-11A. SUA classification is not listed as a standalone task under that title in the ATP ACS. This lesson prepares the applicant to interpret applicable rules and apply risk management; NFA does not claim these prompts reproduce official exam items. The questions are original and assess the objectives taught.
+
 ### Official references consulted
-1. FAA, *Aeronautical Information Manual*, Chapter 3, Sections 4–5, especially 3-4-1 through 3-4-9 and 3-5-3; current edition checked 12 Nov 2026. Official page: https://www.faa.gov/air_traffic/publications/aim_html/
-2. eCFR, Title 14, Part 73, *Special Use Airspace*, including §§73.3 and 73.13; current version checked 12 Nov 2026: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73
-3. eCFR, 14 CFR §91.133, *Restricted and prohibited areas*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133
-4. eCFR, 14 CFR §§91.103, 91.137–91.145: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91
-5. eCFR, 14 CFR §99.7, *Special security instructions*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7
-6. FAA, *Special Use Airspace and Air Traffic Control Assigned Airspace—Graphic Map*: https://sua.faa.gov/
-7. FAA, *Temporary Flight Restrictions*: https://tfr.faa.gov/; FAA NOTAM Search: https://notams.aim.faa.gov/notamSearch/
-8. FAA Order JO 7400.10H, *Special Use Airspace*, issued 04 Feb 2026, active: https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725
+1. FAA, [Aeronautical Information Manual](https://www.faa.gov/air_traffic/publications/aim_html/), Chapter 3, Sections 4–5, especially 3-4-1 through 3-4-9 and 3-5-3; current edition effective 09 Jul 2026, checked 12 Nov 2026.
+2. eCFR, Title 14, [Part 73 — Special Use Airspace](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73), including §§73.3 and 73.13; version current through 09 Nov 2026, checked 12 Nov 2026.
+3. eCFR, 14 CFR [§91.133 — Restricted and prohibited areas](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133), checked 12 Nov 2026.
+4. eCFR, 14 CFR [Part 91](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91), including §§91.103 and 91.137–91.145, checked 12 Nov 2026.
+5. eCFR, 14 CFR [§99.7 — Special security instructions](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7), checked 12 Nov 2026.
+6. FAA, [Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs), list current on 12 Nov 2026; [FAA-S-ACS-11A, ATP Airplane ACS](https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf), Nov 2023, effective 31 May 2024.
+7. FAA, [Special Use Airspace and Air Traffic Control Assigned Airspace Graphic Map](https://sua.faa.gov/), dynamic status resource; consulted 12 Nov 2026.
+8. FAA, [Temporary Flight Restrictions](https://tfr.faa.gov/) and [NOTAM Search](https://notams.aim.faa.gov/notamSearch/), dynamic resources; consulted 12 Nov 2026.
+9. FAA Order [JO 7400.10H — Special Use Airspace](https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725), issued 04 Feb 2026; active on 12 Nov 2026.
 
 ### Study assignment
 Finish by briefing a real route: mark an R area, a MOA, and a temporary NOTAM; state limits, status, confirming source, decision point, alternate, and coordination call. If you cannot say who authorizes entry, what condition applies, and where you will remain clear, revisit Chapters 2, 5, and 6.`
