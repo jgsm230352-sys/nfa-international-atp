@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 21483)
-Total output lines: 570
-
 window.nfaLesson12Data = (() => {
   const bilingual = (pt, en) => `PT-BR: ${pt}\nEN-US: ${en}`;
   const chapters = [
@@ -352,7 +349,154 @@ ATC pode coordenar, avisar ou encaminhar o pedido; isso não significa que cada 
 Se uma área se torna ativa, uma TFR entra em vigor ou surge informação incompatível com a rota, a tripulação mantém controle e consciência da posição, informa ATC quando possível e pede solução antes de atingir o limite. Não espere o FMS alertar uma violação: o mapa de navegação pode não carregar NOTAM, status de uso ou condições de autorização.
 
 ### CRM aplicado
-Use comunicação em circuito fechado: “R-XXXX, ativo às 1430Z, limite FL180; decisão em 20 NM; solicitar desvio se sem liberação.” O outro piloto confirma a restrição e a tarefa. Se workload subir, priorize controle, navegação e comunicação …3483 tokens truncated…aa.gov/
+Use comunicação em circuito fechado: “R-XXXX, ativo às 1430Z, limite FL180; decisão em 20 NM; solicitar desvio se sem liberação.” O outro piloto confirma a restrição e a tarefa. Se workload subir, priorize controle, navegação e comunicação essencial; adie detalhes não críticos. A SOP do operador pode adicionar verificações, mas não pode relaxar um requisito FAA.
+
+### English (US)
+
+### Instructor briefing
+An ATC clearance, a status inquiry, and permission from a using agency are different actions. The crew must know which one it received. ATC manages traffic and issues clearances; the using/controlling agency may hold specific authority over a Restricted Area; the PIC retains responsibility for aircraft operation and compliance with applicable rules.
+
+### Three questions before accepting the path
+1. **What did ATC clear?** Read the route, altitude, restrictions, and clearance limits.
+2. **Who can authorize access to the area?** Confirm the agency and conditions when the rule requires separate permission.
+3. **Can the flight comply safely and legally?** If uncertain, “unable” and a request for clarification are professional tools.
+
+ATC may coordinate, advise, or relay a request; that does not mean every clearance implies permission from the using agency. Likewise, permission to enter does not replace an ATC clearance when one is required. Both requirements must be satisfied.
+
+### Status change in flight
+If an area becomes active, a TFR takes effect, or new information conflicts with the route, maintain aircraft control and position awareness, advise ATC when able, and request a solution before reaching the limit. Do not wait for the FMS to warn of a violation: the navigation display may not contain NOTAMs, activity status, or authorization conditions.
+
+### CRM in practice
+Use closed-loop communication: “R-XXXX, active at 1430Z, limit FL180; decision in 20 NM; request deviation if not released.” The other pilot confirms the restriction and task. If workload rises, prioritize control, navigation, and essential communication; defer noncritical details. Operator SOP may add checks but cannot relax an FAA requirement.
+
+### References
+14 CFR §§91.3, 91.123, 91.133; FAA AIM 3-4-3, 3-5-3; applicable operator SOP.`
+    },
+    {
+      title: "8. Casos integrados: decidir, comunicar e preservar margem",
+      body: `## Português (BR)
+
+### Caso 1 — Restricted Area ativa
+Você está em IFR, a clearance atual aponta para cruzar uma R- área, e o status indica ativa/não liberada. Não atravesse com base apenas na frase “cleared direct”. Mantenha a trajetória dentro da clearance segura, esclareça a autorização e solicite desvio antes do limite. Se já estiver em conflito, comunique imediatamente e execute a ação necessária para evitar penetração, respeitando as regras e prioridades aplicáveis.
+
+**Pergunta ao aluno:** qual dado ainda falta antes de decidir entrar? **Resposta esperada:** autorização válida da agência competente/condição aplicável e compatibilidade com clearance ATC, limites e horário.
+
+### Caso 2 — MOA com atividade e voo VFR
+O passageiro pede “um atalho” e a MOA parece economizar tempo. Confirme atividade real; contate a agência controladora para advisory, se disponível; avalie tráfego, velocidade relativa, espaço para manobra e rota alternativa. Advisory não significa separação. Se a visibilidade/atividade reduzir a margem, contorne.
+
+**Pergunta ao aluno:** a MOA cria uma proibição VFR geral? **Resposta:** a simples designação não funciona como Restricted Area; ainda assim, a AIM aconselha extrema cautela durante atividade, e demais regras permanecem aplicáveis.
+
+### Caso 3 — TFR posterior ao planejamento
+Uma TFR cruza a chegada depois que a aeronave já está em rota. Leia base e NOTAM completos, identifique exceções e coordenação permitida; peça reroute com antecedência. Não use a autorização ATC como exceção implícita.
+
+### Caso 4 — NSA e aviso de segurança
+Na carta, a NSA pede evitação voluntária. Um FDC NOTAM §99.7 estabelece proibição temporária durante a janela do voo. A restrição temporária prevalece para o planejamento: mantenha-se fora e siga as condições publicadas.
+
+### Matriz de decisão do instrutor
+| Pergunta | Evidência necessária | Ação quando incompleta |
+|---|---|---|
+| Que volume é? | Carta/publicação/NOTAM | Identificar limites antes de planejar cruzamento |
+| Está ativo/restrito? | Horário e status atual | Confirmar com autoridade; manter-se fora |
+| Entrada é permitida? | Regra e autorização exigida | Solicitar autorização ou reroute |
+| A clearance é compatível? | Rota/altitude ATC | Clarificar; não inferir autorização |
+| A situação mudou? | NOTAM/status/ATC atualizado | Reavaliar antes do limite |
+
+### Revisão final
+- P e R são áreas regulatórias; para Restricted, §91.133 e Part 73 são centrais.
+- MOA, Warning, Alert, CFA e NSA são não regulatórias, mas não equivalem entre si.
+- TFR deve ser lida pelo regulamento e pelo NOTAM específicos.
+- Carta, NOTAM, agência, ATC e PIC têm papéis diferentes.
+- A decisão profissional é tomada antes do limite, com alternativa e comunicação em equipe.
+
+### English (US)
+
+### Case 1 — Active Restricted Area
+You are IFR, the current clearance appears to cross an R area, and status shows active/not released. Do not cross based only on “cleared direct.” Keep the path consistent with a safe clearance, clarify the authorization, and request a deviation before the boundary. If already in conflict, advise ATC immediately and take the action needed to avoid penetration while respecting applicable rules and priorities.
+
+**Student question:** what information is still missing before deciding to enter? **Expected answer:** valid permission from the competent agency/applicable condition and compatibility with the ATC clearance, limits, and time.
+
+### Case 2 — Active MOA and VFR flight
+A passenger asks for a shortcut, and the MOA appears to save time. Confirm actual activity; contact the controlling agency for an advisory if available; assess traffic, relative speed, maneuvering room, and an alternate route. An advisory is not separation. If visibility/activity reduces the margin, go around the area.
+
+**Student question:** does a MOA create a general VFR prohibition? **Answer:** the designation alone does not operate like a Restricted Area; nevertheless, the AIM advises extreme caution during activity, and other rules remain applicable.
+
+### Case 3 — TFR issued after planning
+A TFR intersects the arrival after the aircraft is en route. Read the full authority and NOTAM, identify exceptions and permitted coordination, and request a reroute early. Do not treat ATC clearance as an implied exception.
+
+### Case 4 — NSA and security notice
+The charted NSA requests voluntary avoidance. An FDC NOTAM under §99.7 establishes a temporary prohibition during the flight window. The temporary restriction controls the plan: remain clear and follow the published conditions.
+
+### Instructor decision matrix
+| Question | Evidence needed | Action if incomplete |
+|---|---|---|
+| What volume is it? | Chart/publication/NOTAM | Identify limits before planning entry |
+| Is it active/restricted? | Time and current status | Confirm with authority; remain clear |
+| Is entry allowed? | Rule and required permission | Obtain permission or request reroute |
+| Is the clearance compatible? | ATC route/altitude | Clarify; do not infer authorization |
+| Has the situation changed? | Updated NOTAM/status/ATC | Reassess before the boundary |
+
+### Final review
+- P and R are regulatory areas; §91.133 and Part 73 are central for Restricted Areas.
+- MOA, Warning, Alert, CFA, and NSA are nonregulatory but are not interchangeable.
+- Read a TFR through its specific regulation and NOTAM.
+- Chart, NOTAM, agency, ATC, and PIC have different roles.
+- Make the professional decision before the boundary, with an alternate and crew communication.
+
+### References
+14 CFR Part 73; §§91.103, 91.133, 91.137–91.145, 99.7; FAA AIM 3-4-1 through 3-4-9 and 3-5-3; FAA JO 7400.10H; current FAA NOTAM, Domestic Notices, Chart Supplement and SUA resources.`
+    },
+    {
+      title: "9. Matriz de rastreabilidade, referências e orientação de estudo",
+      body: `## Português (BR)
+
+### Matriz de rastreabilidade acadêmica
+| Tema | Fonte oficial | Conhecimento/objetivo | Aplicação operacional | Avaliação |
+|---|---|---|---|---|
+| Categorias SUA e limites | AIM 3-4-1; Part 73 | Distinguir regulatória/não regulatória e ler limites/status | Briefing de rota | Banco A, Q1–Q4; Banco B, Q1–Q2 |
+| Prohibited/Restricted | §§91.133, Part 73; AIM 3-4-2/3 | Saber quando entrada é vedada ou condicionada | Reroute, autorização, joint-use | Banco A, Q5–Q8; Banco B, Q3–Q5 |
+| MOA/Warning/Alert/CFA | AIM 3-4-4 a 3-4-7 | Distinguir efeitos e responsabilidades | Trânsito IFR/VFR e separação | Banco A, Q9–Q12; Banco B, Q6–Q9 |
+| NSA/segurança | §99.7; AIM 3-4-8 | Distinguir evitação solicitada de proibição NOTAM | Decisão após FDC NOTAM | Banco A, Q13–Q14; Banco B, Q10–Q11 |
+| TFR | §§91.137–91.145; AIM 3-5-3 | Interpretar base, volume, condições e exceções | Atualização de rota | Banco A, Q15–Q17; Banco B, Q12–Q15 |
+| Planejamento e coordenação | §91.103; AIM 3-4-9, 5-1-3 | Integrar fontes e atribuir tarefas | Briefing, ponto de decisão e revalidação | Banco A, Q18–Q20; Banco B, Q16–Q20 |
+
+### O que é exigência e o que é método
+**Regra:** 14 CFR aplicável e condições do NOTAM estabelecem obrigações legais. **Orientação FAA:** AIM explica procedimentos e informação operacional; sua formulação deve ser lida como orientação salvo quando incorporada a regra. **Procedimento de operador:** SOP pode estabelecer verificações e divisão de tarefas. **Boa prática:** construir ponto de decisão e alternativa antes do limite. Não confunda esses níveis.
+
+### Referências oficiais consultadas
+1. FAA, *Aeronautical Information Manual*, Chapter 3, Sections 4–5, especialmente 3-4-1 a 3-4-9 e 3-5-3; edição vigente consultada em 12 Nov 2026. Página oficial: https://www.faa.gov/air_traffic/publications/aim_html/
+2. eCFR, Title 14, Part 73, *Special Use Airspace*, incluindo §§73.3 e 73.13; versão corrente consultada em 12 Nov 2026: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73
+3. eCFR, 14 CFR §91.133, *Restricted and prohibited areas*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133
+4. eCFR, 14 CFR §§91.103, 91.137–91.145: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91
+5. eCFR, 14 CFR §99.7, *Special security instructions*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7
+6. FAA, *Special Use Airspace and Air Traffic Control Assigned Airspace—Graphic Map*: https://sua.faa.gov/
+7. FAA, *Temporary Flight Restrictions*: https://tfr.faa.gov/ ; FAA NOTAM Search: https://notams.aim.faa.gov/notamSearch/
+8. FAA Order JO 7400.10H, *Special Use Airspace*, issued 04 Feb 2026, active: https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725
+
+### Orientação de estudo
+Feche a aula fazendo um briefing de uma rota real: marque um R-area, uma MOA e um NOTAM temporário; declare limites, status, fonte confirmadora, ponto de decisão, alternativa e frase de coordenação. Se não consegue dizer quem autoriza, qual condição vale e onde ficará antes da borda, volte aos capítulos 2, 5 e 6.
+
+### English (US)
+
+### Academic traceability matrix
+| Topic | Official source | Knowledge/objective | Operational application | Assessment |
+|---|---|---|---|---|
+| SUA categories and limits | AIM 3-4-1; Part 73 | Distinguish regulatory/nonregulatory and interpret limits/status | Route briefing | Bank A, Q1–Q4; Bank B, Q1–Q2 |
+| Prohibited/Restricted | §§91.133, Part 73; AIM 3-4-2/3 | Know when entry is prohibited or conditional | Reroute, permission, joint use | Bank A, Q5–Q8; Bank B, Q3–Q5 |
+| MOA/Warning/Alert/CFA | AIM 3-4-4 through 3-4-7 | Distinguish effects and responsibilities | IFR/VFR transit and separation | Bank A, Q9–Q12; Bank B, Q6–Q9 |
+| NSA/security | §99.7; AIM 3-4-8 | Distinguish requested avoidance from NOTAM prohibition | Decision after FDC NOTAM | Bank A, Q13–Q14; Bank B, Q10–Q11 |
+| TFR | §§91.137–91.145; AIM 3-5-3 | Interpret authority, volume, conditions, exceptions | Route update | Bank A, Q15–Q17; Bank B, Q12–Q15 |
+| Planning and coordination | §91.103; AIM 3-4-9, 5-1-3 | Integrate sources and assign tasks | Briefing, decision point, revalidation | Bank A, Q18–Q20; Bank B, Q16–Q20 |
+
+### Requirement versus method
+**Rule:** applicable 14 CFR provisions and NOTAM conditions establish legal obligations. **FAA guidance:** the AIM explains procedures and operational information; read its statements as guidance unless incorporated into a rule. **Operator procedure:** SOP may add checks and task allocation. **Good practice:** build a decision point and alternate before the boundary. Do not confuse these levels.
+
+### Official references consulted
+1. FAA, *Aeronautical Information Manual*, Chapter 3, Sections 4–5, especially 3-4-1 through 3-4-9 and 3-5-3; current edition checked 12 Nov 2026. Official page: https://www.faa.gov/air_traffic/publications/aim_html/
+2. eCFR, Title 14, Part 73, *Special Use Airspace*, including §§73.3 and 73.13; current version checked 12 Nov 2026: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-73
+3. eCFR, 14 CFR §91.133, *Restricted and prohibited areas*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/section-91.133
+4. eCFR, 14 CFR §§91.103, 91.137–91.145: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91
+5. eCFR, 14 CFR §99.7, *Special security instructions*: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-99/section-99.7
+6. FAA, *Special Use Airspace and Air Traffic Control Assigned Airspace—Graphic Map*: https://sua.faa.gov/
 7. FAA, *Temporary Flight Restrictions*: https://tfr.faa.gov/; FAA NOTAM Search: https://notams.aim.faa.gov/notamSearch/
 8. FAA Order JO 7400.10H, *Special Use Airspace*, issued 04 Feb 2026, active: https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1044725
 
