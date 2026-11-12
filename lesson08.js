@@ -29,526 +29,526 @@ window.nfaLesson08Data = {
   "questions": [
     [
       {
-        "q": "PT: A Part 91 general rule by itself authorizes which commercial transportation operation? | EN: By itself, which commercial transportation operation does the general Part 91 rule authorize? | English: By itself, which commercial transportation operation does the general Part 91 rule authorize?",
+        "q": "PT: Por si só, qual operação de transporte comercial a regra geral da Part 91 autoriza? | EN: By itself, which commercial transportation operation does the general Part 91 rule authorize?",
         "options": [
-          "PT: Any paid passenger flight | EN: Any paid passenger flight",
-          "PT: None; Part 91 alone does not grant commercial-carrier authority | EN: None; Part 91 alone does not grant commercial-carrier authority",
-          "PT: Any operation with an ATP pilot | EN: Any operation with an ATP pilot",
-          "PT: Any aircraft listed on a company website | EN: Any aircraft listed on a company website"
+          "PT: Qualquer voo pago com passageiros | EN: Any paid passenger flight",
+          "PT: Nenhuma; a Part 91, por si só, não concede autoridade de transportador aéreo comercial | EN: None; Part 91 alone does not grant commercial-carrier authority",
+          "PT: Qualquer operação com piloto ATP | EN: Any operation with an ATP pilot",
+          "PT: Qualquer aeronave listada no site de uma empresa | EN: Any aircraft listed on a company website"
         ],
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: Part 91 supplies general operating rules, not an air-carrier certificate or operating authority. Payment, an ATP, or marketing does not independently authorize an operation. | EN: A regra geral da Part 91 não concede certificado nem autoridade de transporte aéreo. Remuneração, ATP ou publicidade não autorizam a operação por si só."
+        "explanation": "PT: A regra geral da Part 91 não concede certificado nem autoridade de transporte aéreo. Remuneração, ATP ou publicidade não autorizam a operação por si só. | EN: Part 91 supplies general operating rules, not an air-carrier certificate or operating authority. Payment, an ATP, or marketing does not independently authorize an operation."
       },
       {
-        "q": "PT: What is the soundest basis for classifying a flight under Parts 121 or 135? | EN: What is the soundest basis for classifying a flight under Parts 121 or 135? | English: What is the soundest basis for classifying a flight under Parts 121 or 135?",
+        "q": "PT: Qual é a base mais sólida para classificar um voo segundo as Parts 121 ou 135? | EN: What is the soundest basis for classifying a flight under Parts 121 or 135?",
         "options": [
-          "PT: The marketing name used by sales | EN: The marketing name used by sales",
-          "PT: Aircraft size alone | EN: Aircraft size alone",
-          "PT: The actual operation, regulatory definitions, certificate authority, and applicable exceptions | EN: The actual operation, regulatory definitions, certificate authority, and applicable exceptions",
-          "PT: The captain's preferred rule set | EN: The captain's preferred rule set"
+          "PT: O nome comercial usado pela área de vendas | EN: The marketing name used by sales",
+          "PT: Somente o porte da aeronave | EN: Aircraft size alone",
+          "PT: A operação real, as definições regulamentares, a autoridade do certificado e as exceções aplicáveis | EN: The actual operation, regulatory definitions, certificate authority, and applicable exceptions",
+          "PT: O conjunto de regras preferido pelo comandante | EN: The captain's preferred rule set"
         ],
         "answer": 2,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: Classification follows the facts, definitions, authority, and exceptions. Marketing labels, size alone, and preference cannot determine it. | EN: A classificação decorre dos fatos, definições, autoridade e exceções. Rótulos comerciais, tamanho isolado ou preferência não bastam."
+        "explanation": "PT: A classificação decorre dos fatos, definições, autoridade e exceções. Rótulos comerciais, tamanho isolado ou preferência não bastam. | EN: Classification follows the facts, definitions, authority, and exceptions. Marketing labels, size alone, and preference cannot determine it."
       },
       {
-        "q": "PT: What is the role of Part 119 in this lesson? | EN: What role does Part 119 play in this lesson? | English: What role does Part 119 play in this lesson?",
+        "q": "PT: Qual é o papel da Part 119 nesta aula? | EN: What role does Part 119 play in this lesson?",
         "options": [
-          "PT: It provides the certification framework and operating-authority structure, subject to exceptions | EN: It provides the certification framework and operating-authority structure, subject to exceptions",
-          "PT: It replaces all Part 121 and 135 rules | EN: It replaces all Part 121 and 135 rules",
-          "PT: It is only a pilot-licensing part | EN: It is only a pilot-licensing part",
-          "PT: It authorizes any operation once a certificate is issued | EN: It authorizes any operation once a certificate is issued"
+          "PT: Estabelece a estrutura de certificação e autoridade operacional, ressalvadas as exceções | EN: It provides the certification framework and operating-authority structure, subject to exceptions",
+          "PT: Substitui todas as regras das Parts 121 e 135 | EN: It replaces all Part 121 and 135 rules",
+          "PT: Trata apenas de licenças de piloto | EN: It is only a pilot-licensing part",
+          "PT: Autoriza qualquer operação assim que um certificado é emitido | EN: It authorizes any operation once a certificate is issued"
         ],
         "answer": 0,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: Part 119 frames operator certification and authority. It neither replaces operating rules nor makes a certificate universal. | EN: A Part 119 estrutura certificação e autoridade do operador. Não substitui as regras operacionais nem torna o certificado universal."
+        "explanation": "PT: A Part 119 estrutura certificação e autoridade do operador. Não substitui as regras operacionais nem torna o certificado universal. | EN: Part 119 frames operator certification and authority. It neither replaces operating rules nor makes a certificate universal."
       },
       {
-        "q": "PT: Which statement about a certificate holder's authority is correct? | EN: Which statement about a certificate holder's authority is correct? | English: Which statement about a certificate holder's authority is correct?",
+        "q": "PT: Qual afirmação sobre a autoridade do titular do certificado está correta? | EN: Which statement about a certificate holder's authority is correct?",
         "options": [
-          "PT: A certificate automatically covers any aircraft it can lease | EN: A certificate automatically covers any aircraft it can lease",
-          "PT: Authority is bounded by applicable rules, certificate scope, and approvals/limitations | EN: Authority is bounded by applicable rules, certificate scope, and approvals/limitations",
-          "PT: An OpSpec is optional information for pilots | EN: An OpSpec is optional information for pilots",
-          "PT: A valid pilot certificate alone determines the operator's authority | EN: A valid pilot certificate alone determines the operator's authority"
+          "PT: O certificado abrange automaticamente qualquer aeronave que a empresa possa arrendar | EN: A certificate automatically covers any aircraft it can lease",
+          "PT: A autoridade é limitada pelas regras aplicáveis, pelo escopo do certificado e pelas aprovações/limitações | EN: Authority is bounded by applicable rules, certificate scope, and approvals/limitations",
+          "PT: Uma OpSpec é informação opcional para pilotos | EN: An OpSpec is optional information for pilots",
+          "PT: Somente um certificado válido de piloto determina a autoridade do operador | EN: A valid pilot certificate alone determines the operator's authority"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Authority has defined scope and limitations; a pilot certificate, lease, or vague reference to OpSpecs cannot expand it. | EN: A autoridade possui escopo e limites. Licença do piloto, contrato de leasing ou menção genérica a OpSpecs não a ampliam."
+        "explanation": "PT: A autoridade possui escopo e limites. Licença do piloto, contrato de leasing ou menção genérica a OpSpecs não a ampliam. | EN: Authority has defined scope and limitations; a pilot certificate, lease, or vague reference to OpSpecs cannot expand it."
       },
       {
-        "q": "PT: Which is the best first step when an assignment lists a different operator from the briefing? | EN: What is the best first step when an assignment lists a different operator from the briefing? | English: What is the best first step when an assignment lists a different operator from the briefing?",
+        "q": "PT: Qual é o melhor primeiro passo quando a escala indica um operador diferente do briefing? | EN: What is the best first step when an assignment lists a different operator from the briefing?",
         "options": [
-          "PT: Assume the brand names are interchangeable | EN: Assume the brand names are interchangeable",
-          "PT: Depart, then ask operations | EN: Depart, then ask operations",
-          "PT: Identify the certificate holder and clarify which entity exercises operational control | EN: Identify the certificate holder and clarify which entity exercises operational control",
-          "PT: Use Part 91 to avoid the mismatch | EN: Use Part 91 to avoid the mismatch"
+          "PT: Presumir que os nomes das marcas são intercambiáveis | EN: Assume the brand names are interchangeable",
+          "PT: Decolar e depois consultar o setor de operações | EN: Depart, then ask operations",
+          "PT: Identificar o titular do certificado e esclarecer qual entidade exerce controle operacional | EN: Identify the certificate holder and clarify which entity exercises operational control",
+          "PT: Usar a Part 91 para evitar a divergência | EN: Use Part 91 to avoid the mismatch"
         ],
         "answer": 2,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Confirm the accountable certificate holder and operational-control structure before flight. Brand similarity and departure do not resolve authority. | EN: Confirme o titular responsável e a estrutura de controle antes do voo. Semelhança de marcas ou decolar não resolve a dúvida."
+        "explanation": "PT: Confirme o titular responsável e a estrutura de controle antes do voo. Semelhança de marcas ou decolar não resolve a dúvida. | EN: Confirm the accountable certificate holder and operational-control structure before flight. Brand similarity and departure do not resolve authority."
       },
       {
-        "q": "PT: An Advisory Circular generally: | EN: An Advisory Circular generally does what? | English: An Advisory Circular generally does what?",
+        "q": "PT: Em geral, o que é uma Advisory Circular? | EN: An Advisory Circular generally does what?",
         "options": [
-          "PT: Creates a regulation automatically | EN: Creates a regulation automatically",
-          "PT: Provides FAA guidance; it does not by itself create a legal requirement unless incorporated or otherwise made binding | EN: Provides FAA guidance; it does not by itself create a legal requirement unless incorporated or otherwise made binding",
-          "PT: Overrides the eCFR | EN: Overrides the eCFR",
-          "PT: Is always an operator SOP | EN: Is always an operator SOP"
+          "PT: Cria automaticamente um regulamento | EN: Creates a regulation automatically",
+          "PT: Fornece orientação da FAA; por si só, não cria obrigação legal, salvo se incorporada ou tornada vinculante por outro meio | EN: Provides FAA guidance; it does not by itself create a legal requirement unless incorporated or otherwise made binding",
+          "PT: Prevalece sobre o eCFR | EN: Overrides the eCFR",
+          "PT: É sempre um SOP do operador | EN: Is always an operator SOP"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: An AC is guidance in general; check its language and any incorporation. It neither overrides regulation nor automatically becomes SOP. | EN: Uma AC normalmente orienta; verifique seu texto e eventual incorporação. Não prevalece sobre regra nem vira SOP automaticamente."
+        "explanation": "PT: Uma AC normalmente orienta; verifique seu texto e eventual incorporação. Não prevalece sobre regra nem vira SOP automaticamente. | EN: An AC is guidance in general; check its language and any incorporation. It neither overrides regulation nor automatically becomes SOP."
       },
       {
-        "q": "PT: Which statement best describes Part 121 categories addressed here? | EN: Which Part 121 categories are addressed here? | English: Which Part 121 categories are addressed here?",
+        "q": "PT: Quais categorias da Part 121 são tratadas aqui? | EN: Which Part 121 categories are addressed here?",
         "options": [
-          "PT: Domestic, flag, and supplemental operations as defined by the rules | EN: Domestic, flag, and supplemental operations as defined by the rules",
-          "PT: Every flight with more than nine seats | EN: Every flight with more than nine seats",
-          "PT: All on-demand charter flights | EN: All on-demand charter flights",
-          "PT: Only scheduled domestic flights | EN: Only scheduled domestic flights"
+          "PT: Operações domésticas, de bandeira e suplementares, conforme definidas nas regras | EN: Domestic, flag, and supplemental operations as defined by the rules",
+          "PT: Todo voo com mais de nove assentos | EN: Every flight with more than nine seats",
+          "PT: Todos os voos charter sob demanda | EN: All on-demand charter flights",
+          "PT: Somente voos domésticos regulares | EN: Only scheduled domestic flights"
         ],
         "answer": 0,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: Part 121 includes domestic, flag, and supplemental operations as defined; seat count or charter label alone is not the full test. | EN: Part 121 inclui operações domésticas, de bandeira e suplementares conforme definidas. Número de assentos ou rótulo charter não é teste completo."
+        "explanation": "PT: Part 121 inclui operações domésticas, de bandeira e suplementares conforme definidas. Número de assentos ou rótulo charter não é teste completo. | EN: Part 121 includes domestic, flag, and supplemental operations as defined; seat count or charter label alone is not the full test."
       },
       {
-        "q": "PT: Which statement best describes Part 135 scope in this lesson? | EN: Which statement best describes Part 135 scope in this lesson? | English: Which statement best describes Part 135 scope in this lesson?",
+        "q": "PT: Qual afirmação descreve melhor o escopo da Part 135 nesta aula? | EN: Which statement best describes Part 135 scope in this lesson?",
         "options": [
-          "PT: It governs every non-airline flight | EN: It governs every non-airline flight",
-          "PT: It includes commuter and on-demand operations within its definitions and applicability | EN: It includes commuter and on-demand operations within its definitions and applicability",
-          "PT: It applies only to helicopters | EN: It applies only to helicopters",
-          "PT: It is optional when Part 121 is inconvenient | EN: It is optional when Part 121 is inconvenient"
+          "PT: Rege todo voo que não seja de linha aérea | EN: It governs every non-airline flight",
+          "PT: Inclui operações commuter e on-demand dentro de suas definições e aplicabilidade | EN: It includes commuter and on-demand operations within its definitions and applicability",
+          "PT: Aplica-se somente a helicópteros | EN: It applies only to helicopters",
+          "PT: É opcional quando a Part 121 for inconveniente | EN: It is optional when Part 121 is inconvenient"
         ],
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: Part 135 includes defined commuter and on-demand operations. It is not a catch-all for every non-airline flight or an elective regime. | EN: Part 135 inclui operações commuter e on-demand definidas. Não é regra geral para todo voo fora de linha aérea nem regime eletivo."
+        "explanation": "PT: Part 135 inclui operações commuter e on-demand definidas. Não é regra geral para todo voo fora de linha aérea nem regime eletivo. | EN: Part 135 includes defined commuter and on-demand operations. It is not a catch-all for every non-airline flight or an elective regime."
       },
       {
-        "q": "PT: Why should a pilot avoid transferring a Part 121 requirement automatically to Part 135? | EN: Why should a pilot avoid automatically transferring a Part 121 requirement to Part 135? | English: Why should a pilot avoid automatically transferring a Part 121 requirement to Part 135?",
+        "q": "PT: Por que o piloto não deve transferir automaticamente para a Part 135 um requisito da Part 121? | EN: Why should a pilot avoid automatically transferring a Part 121 requirement to Part 135?",
         "options": [
-          "PT: Because Part 135 has no safety rules | EN: Because Part 135 has no safety rules",
-          "PT: Because applicability and requirements depend on the governing part and operation | EN: Because applicability and requirements depend on the governing part and operation",
-          "PT: Because operator manuals always replace regulations | EN: Because operator manuals always replace regulations",
-          "PT: Because the PIC chooses the applicable part | EN: Because the PIC chooses the applicable part"
+          "PT: Porque a Part 135 não tem regras de segurança | EN: Because Part 135 has no safety rules",
+          "PT: Porque a aplicabilidade e os requisitos dependem da parte regulatória e da operação em questão | EN: Because applicability and requirements depend on the governing part and operation",
+          "PT: Porque os manuais do operador sempre substituem os regulamentos | EN: Because operator manuals always replace regulations",
+          "PT: Porque o PIC escolhe a parte aplicável | EN: Because the PIC chooses the applicable part"
         ],
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: Different provisions and applicability must be checked; Part 135 still has duties, and manuals cannot displace regulation. | EN: É preciso verificar a aplicabilidade de cada regra. Part 135 também impõe deveres, e manuais não substituem regulamentos."
+        "explanation": "PT: É preciso verificar a aplicabilidade de cada regra. Part 135 também impõe deveres, e manuais não substituem regulamentos. | EN: Different provisions and applicability must be checked; Part 135 still has duties, and manuals cannot displace regulation."
       },
       {
-        "q": "PT: In domestic/flag Part 121 operations, which statement is most accurate about PIC and dispatcher? | EN: In Part 121 domestic/flag operations, which statement about the PIC and dispatcher is most accurate? | English: In Part 121 domestic/flag operations, which statement about the PIC and dispatcher is most accurate?",
+        "q": "PT: Nas operações domésticas/de bandeira Part 121, qual afirmação descreve melhor PIC e despachante? | EN: In Part 121 domestic/flag operations, which statement about the PIC and dispatcher is most accurate?",
         "options": [
-          "PT: The dispatcher assumes the PIC's flight duties | EN: The dispatcher assumes the PIC's flight duties",
-          "PT: The PIC and dispatcher have allocated/shared duties under applicable rules; release does not erase PIC duties | EN: The PIC and dispatcher have allocated/shared duties under applicable rules; release does not erase PIC duties",
-          "PT: The PIC has no role after dispatch release | EN: The PIC has no role after dispatch release",
-          "PT: The dispatcher may overrule any emergency action | EN: The dispatcher may overrule any emergency action"
+          "PT: O despachante assume as funções de voo do PIC | EN: The dispatcher assumes the PIC's flight duties",
+          "PT: O PIC e o despachante têm deveres compartilhados/distribuídos pelas regras aplicáveis; a liberação não elimina os deveres do PIC | EN: The PIC and dispatcher have allocated/shared duties under applicable rules; release does not erase PIC duties",
+          "PT: O PIC não tem função após a liberação do despachante | EN: The PIC has no role after dispatch release",
+          "PT: O despachante pode sobrepor qualquer ação em emergência | EN: The dispatcher may overrule any emergency action"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Rules allocate duties to PIC and dispatcher; release does not eliminate PIC responsibility, and no blanket dispatcher override exists. | EN: As regras distribuem deveres entre PIC e despachante; a liberação não elimina o papel do PIC, e não há poder genérico de sobrepor ação emergencial."
+        "explanation": "PT: As regras distribuem deveres entre PIC e despachante; a liberação não elimina o papel do PIC, e não há poder genérico de sobrepor ação emergencial. | EN: Rules allocate duties to PIC and dispatcher; release does not eliminate PIC responsibility, and no blanket dispatcher override exists."
       },
       {
-        "q": "PT: For supplemental operations under §121.537, the rule assigns specified joint responsibility to: | EN: For supplemental operations under §121.537, the rule assigns specified joint responsibility to whom? | English: For supplemental operations under §121.537, the rule assigns specified joint responsibility to whom?",
+        "q": "PT: Nas operações suplementares, a §121.537 atribui responsabilidade conjunta específica a quem? | EN: For supplemental operations under §121.537, the rule assigns specified joint responsibility to whom?",
         "options": [
-          "PT: PIC and Director of Operations | EN: PIC and Director of Operations",
-          "PT: PIC and each passenger | EN: PIC and each passenger",
-          "PT: Dispatcher and ATC | EN: Dispatcher and ATC",
-          "PT: FAA inspector and PIC | EN: FAA inspector and PIC"
+          "PT: O PIC e o diretor de operações | EN: PIC and Director of Operations",
+          "PT: O PIC e cada passageiro | EN: PIC and each passenger",
+          "PT: O despachante e o ATC | EN: Dispatcher and ATC",
+          "PT: O inspetor da FAA e o PIC | EN: FAA inspector and PIC"
         ],
         "answer": 0,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: The rule identifies PIC and Director of Operations for specified joint responsibility; other roles do not substitute for that allocation. | EN: A regra atribui responsabilidades conjuntas específicas ao PIC e ao diretor de operações; outros agentes não substituem essa distribuição."
+        "explanation": "PT: A regra atribui responsabilidades conjuntas específicas ao PIC e ao diretor de operações; outros agentes não substituem essa distribuição. | EN: The rule identifies PIC and Director of Operations for specified joint responsibility; other roles do not substitute for that allocation."
       },
       {
-        "q": "PT: Under Part 135, who remains responsible for the operation under §135.77? | EN: Under Part 135, who remains responsible for the operation under §135.77? | English: Under Part 135, who remains responsible for the operation under §135.77?",
+        "q": "PT: Segundo a §135.77, quem permanece responsável pela operação Part 135? | EN: Under Part 135, who remains responsible for the operation under §135.77?",
         "options": [
-          "PT: The passenger who chartered the flight | EN: The passenger who chartered the flight",
-          "PT: The certificate holder, with an authorized person designated as required | EN: The certificate holder, with an authorized person designated as required",
-          "PT: ATC after clearance | EN: ATC after clearance",
-          "PT: The aircraft lessor in every case | EN: The aircraft lessor in every case"
+          "PT: O passageiro que contratou o voo charter | EN: The passenger who chartered the flight",
+          "PT: O titular do certificado, com pessoa autorizada designada conforme exigido | EN: The certificate holder, with an authorized person designated as required",
+          "PT: O ATC após a autorização | EN: ATC after clearance",
+          "PT: O arrendador da aeronave em todos os casos | EN: The aircraft lessor in every case"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: The certificate holder remains responsible and designates an authorized person as required; charter customer, ATC, and lessor do not automatically take that role. | EN: O titular do certificado continua responsável e designa pessoa autorizada conforme exigido. Cliente, ATC ou arrendador não assumem automaticamente esse papel."
+        "explanation": "PT: O titular do certificado continua responsável e designa pessoa autorizada conforme exigido. Cliente, ATC ou arrendador não assumem automaticamente esse papel. | EN: The certificate holder remains responsible and designates an authorized person as required; charter customer, ATC, and lessor do not automatically take that role."
       },
       {
-        "q": "PT: What should a pilot infer from a material change after a release? | EN: What should a pilot infer from a material change after a release? | English: What should a pilot infer from a material change after a release?",
+        "q": "PT: O que o piloto deve concluir diante de mudança material após uma liberação? | EN: What should a pilot infer from a material change after a release?",
         "options": [
-          "PT: The release freezes all planning assumptions | EN: The release freezes all planning assumptions",
-          "PT: Reassess under the applicable rule and operator procedure, coordinating with the proper operational-control function | EN: Reassess under the applicable rule and operator procedure, coordinating with the proper operational-control function",
-          "PT: Only ATC can evaluate it | EN: Only ATC can evaluate it",
-          "PT: Ignore it unless the aircraft has a malfunction | EN: Ignore it unless the aircraft has a malfunction"
+          "PT: A liberação congela todas as premissas de planejamento | EN: The release freezes all planning assumptions",
+          "PT: Reavaliar conforme a regra aplicável e o procedimento do operador, coordenando com a função adequada de controle operacional | EN: Reassess under the applicable rule and operator procedure, coordinating with the proper operational-control function",
+          "PT: Somente o ATC pode avaliar a situação | EN: Only ATC can evaluate it",
+          "PT: Ignorá-la, a menos que haja uma pane na aeronave | EN: Ignore it unless the aircraft has a malfunction"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: A release does not make later conditions static; material changes require reassessment and coordination. ATC or aircraft malfunction is not the sole trigger. | EN: A liberação não congela as condições futuras. Mudanças materiais pedem reavaliação e coordenação; ATC ou pane não são os únicos gatilhos."
+        "explanation": "PT: A liberação não congela as condições futuras. Mudanças materiais pedem reavaliação e coordenação; ATC ou pane não são os únicos gatilhos. | EN: A release does not make later conditions static; material changes require reassessment and coordination. ATC or aircraft malfunction is not the sole trigger."
       },
       {
-        "q": "PT: Why distinguish dispatch release from flight release? | EN: Why distinguish dispatch release from flight release? | English: Why distinguish dispatch release from flight release?",
+        "q": "PT: Por que distinguir dispatch release de flight release? | EN: Why distinguish dispatch release from flight release?",
         "options": [
-          "PT: They are always interchangeable | EN: They are always interchangeable",
-          "PT: Different operational categories can have different release rules and authorities | EN: Different operational categories can have different release rules and authorities",
-          "PT: Only because forms look different | EN: Only because forms look different",
-          "PT: Because neither has regulatory significance | EN: Because neither has regulatory significance"
+          "PT: São sempre intercambiáveis | EN: They are always interchangeable",
+          "PT: Categorias operacionais diferentes podem ter regras e autoridades de liberação diferentes | EN: Different operational categories can have different release rules and authorities",
+          "PT: Apenas porque os formulários têm aparência diferente | EN: Only because forms look different",
+          "PT: Porque nenhum dos dois tem significado regulatório | EN: Because neither has regulatory significance"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: The terms occur in different regulatory contexts and cannot be treated as universal synonyms; form appearance is not the governing distinction. | EN: Os termos aparecem em contextos regulatórios diferentes e não são sinônimos universais; o formato do formulário não define a regra."
+        "explanation": "PT: Os termos aparecem em contextos regulatórios diferentes e não são sinônimos universais; o formato do formulário não define a regra. | EN: The terms occur in different regulatory contexts and cannot be treated as universal synonyms; form appearance is not the governing distinction."
       },
       {
-        "q": "PT: What is the best general way to answer a Part 121/135 oral scenario? | EN: What is the best general way to answer a Part 121/135 oral scenario? | English: What is the best general way to answer a Part 121/135 oral scenario?",
+        "q": "PT: Qual é a melhor forma geral de responder a um cenário oral Part 121/135? | EN: What is the best general way to answer a Part 121/135 oral scenario?",
         "options": [
-          "PT: Quote a section number without applying it | EN: Quote a section number without applying it",
-          "PT: State the applicable operation/rule, responsibility allocation, action, and reassessment trigger | EN: State the applicable operation/rule, responsibility allocation, action, and reassessment trigger",
-          "PT: Assume the stricter rule always applies | EN: Assume the stricter rule always applies",
-          "PT: Describe what another operator does | EN: Describe what another operator does"
+          "PT: Citar o número de uma seção sem aplicá-la | EN: Quote a section number without applying it",
+          "PT: Indicar a operação/regra aplicável, a distribuição de responsabilidades, a ação e o gatilho de reavaliação | EN: State the applicable operation/rule, responsibility allocation, action, and reassessment trigger",
+          "PT: Presumir que a regra mais rigorosa sempre se aplica | EN: Assume the stricter rule always applies",
+          "PT: Descrever o que outro operador faz | EN: Describe what another operator does"
         ],
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: A complete response identifies applicability, responsibility, action, and review trigger. Memorized citation or assumptions do not demonstrate application. | EN: Uma resposta completa identifica aplicabilidade, responsabilidade, ação e gatilho de revisão. Citação decorada ou suposição não demonstra aplicação."
+        "explanation": "PT: Uma resposta completa identifica aplicabilidade, responsabilidade, ação e gatilho de revisão. Citação decorada ou suposição não demonstra aplicação. | EN: A complete response identifies applicability, responsibility, action, and review trigger. Memorized citation or assumptions do not demonstrate application."
       },
       {
-        "q": "PT: A valid operator certificate means: | EN: What does a valid operator certificate mean? | English: What does a valid operator certificate mean?",
+        "q": "PT: O que significa possuir um certificado válido de operador? | EN: What does a valid operator certificate mean?",
         "options": [
-          "PT: Every flight by that company is authorized | EN: Every flight by that company is authorized",
-          "PT: The operator has some authority, but the particular flight must remain within its scope and conditions | EN: The operator has some authority, but the particular flight must remain within its scope and conditions",
-          "PT: Any aircraft can be added informally | EN: Any aircraft can be added informally",
-          "PT: The PIC need not check operational documents | EN: The PIC need not check operational documents"
+          "PT: Todo voo dessa empresa está autorizado | EN: Every flight by that company is authorized",
+          "PT: O operador possui determinada autoridade, mas o voo específico deve permanecer dentro de seu escopo e condições | EN: The operator has some authority, but the particular flight must remain within its scope and conditions",
+          "PT: Qualquer aeronave pode ser incluída informalmente | EN: Any aircraft can be added informally",
+          "PT: O PIC não precisa verificar documentos operacionais | EN: The PIC need not check operational documents"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Certificate validity does not establish that every mission or aircraft is covered; scope and conditions matter. | EN: A validade do certificado não prova que toda missão ou aeronave está coberta; escopo e condições precisam ser conferidos."
+        "explanation": "PT: A validade do certificado não prova que toda missão ou aeronave está coberta; escopo e condições precisam ser conferidos. | EN: Certificate validity does not establish that every mission or aircraft is covered; scope and conditions matter."
       },
       {
-        "q": "PT: How should the crew treat new operational information that affects safety? | EN: How should the crew treat new operational information that affects safety? | English: How should the crew treat new operational information that affects safety?",
+        "q": "PT: Como a tripulação deve tratar nova informação operacional relevante para a segurança? | EN: How should the crew treat new operational information that affects safety?",
         "options": [
-          "PT: As optional if the release was signed | EN: As optional if the release was signed",
-          "PT: Confirm, assess its impact, coordinate, decide, and monitor | EN: Confirm, assess its impact, coordinate, decide, and monitor",
-          "PT: Wait until landing to report it | EN: Wait until landing to report it",
-          "PT: Transfer the decision entirely to ATC | EN: Transfer the decision entirely to ATC"
+          "PT: Como opcional, se a liberação foi assinada | EN: As optional if the release was signed",
+          "PT: Confirmá-la, avaliar o impacto, coordenar, decidir e monitorar | EN: Confirm, assess its impact, coordinate, decide, and monitor",
+          "PT: Esperar até o pouso para relatá-la | EN: Wait until landing to report it",
+          "PT: Transferir a decisão integralmente ao ATC | EN: Transfer the decision entirely to ATC"
         ],
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: A disciplined information loop supports reassessment. Signature, delayed reporting, or total transfer to ATC does not satisfy the crew's operational role. | EN: Um ciclo disciplinado de informação permite reavaliar. Assinatura, relato tardio ou transferência total ao ATC não substituem o papel operacional da tripulação."
+        "explanation": "PT: Um ciclo disciplinado de informação permite reavaliar. Assinatura, relato tardio ou transferência total ao ATC não substituem o papel operacional da tripulação. | EN: A disciplined information loop supports reassessment. Signature, delayed reporting, or total transfer to ATC does not satisfy the crew's operational role."
       },
       {
-        "q": "PT: Which statement about emergency authority is appropriate? | EN: Which statement about emergency authority is appropriate? | English: Which statement about emergency authority is appropriate?",
+        "q": "PT: Qual afirmação sobre a autoridade em emergência é adequada? | EN: Which statement about emergency authority is appropriate?",
         "options": [
-          "PT: It may support necessary deviation/action in an emergency as provided by applicable rules; it is not a routine planning shortcut | EN: It may support necessary deviation/action in an emergency as provided by applicable rules; it is not a routine planning shortcut",
-          "PT: It lets the PIC ignore all later reporting | EN: It lets the PIC ignore all later reporting",
-          "PT: It transfers operational control permanently to the PIC | EN: It transfers operational control permanently to the PIC",
-          "PT: It applies whenever a schedule is late | EN: It applies whenever a schedule is late"
+          "PT: Pode amparar o desvio/ação necessária em emergência, conforme as regras aplicáveis; não é atalho para o planejamento de rotina | EN: It may support necessary deviation/action in an emergency as provided by applicable rules; it is not a routine planning shortcut",
+          "PT: Permite ao PIC ignorar todo relato posterior | EN: It lets the PIC ignore all later reporting",
+          "PT: Transfere permanentemente o controle operacional ao PIC | EN: It transfers operational control permanently to the PIC",
+          "PT: Aplica-se sempre que houver atraso na escala | EN: It applies whenever a schedule is late"
         ],
         "answer": 0,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Emergency authority addresses an actual emergency and remains subject to applicable provisions and reporting; schedule pressure is not an emergency. | EN: A autoridade de emergência atende a uma emergência real e continua sujeita às regras e comunicações aplicáveis. Atraso de escala não é emergência."
+        "explanation": "PT: A autoridade de emergência atende a uma emergência real e continua sujeita às regras e comunicações aplicáveis. Atraso de escala não é emergência. | EN: Emergency authority addresses an actual emergency and remains subject to applicable provisions and reporting; schedule pressure is not an emergency."
       },
       {
-        "q": "PT: Which is an appropriate CRM behavior during an operational-control discussion? | EN: Which is an appropriate CRM behavior during an operational-control discussion? | English: Which is an appropriate CRM behavior during an operational-control discussion?",
+        "q": "PT: Qual comportamento de CRM é apropriado em uma discussão sobre controle operacional? | EN: Which is an appropriate CRM behavior during an operational-control discussion?",
         "options": [
-          "PT: Suppress disagreement to preserve authority gradients | EN: Suppress disagreement to preserve authority gradients",
-          "PT: State a specific concern, its basis, and a proposed action; close the loop | EN: State a specific concern, its basis, and a proposed action; close the loop",
-          "PT: Use vague hints and assume acknowledgment | EN: Use vague hints and assume acknowledgment",
-          "PT: Allow the PM to monitor without speaking | EN: Allow the PM to monitor without speaking"
+          "PT: Suprimir divergências para preservar a hierarquia de autoridade | EN: Suppress disagreement to preserve authority gradients",
+          "PT: Expressar uma preocupação específica, sua base e uma ação proposta; fechar o ciclo de comunicação | EN: State a specific concern, its basis, and a proposed action; close the loop",
+          "PT: Usar indiretas vagas e presumir que foram compreendidas | EN: Use vague hints and assume acknowledgment",
+          "PT: Permitir que o PM monitore sem se manifestar | EN: Allow the PM to monitor without speaking"
         ],
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Specific, assertive communication and confirmation improve shared understanding; silence, hints, and unspoken monitoring do not. | EN: Comunicação específica, assertiva e confirmada melhora o entendimento comum; silêncio, indiretas e monitoramento sem verbalização não ajudam."
+        "explanation": "PT: Comunicação específica, assertiva e confirmada melhora o entendimento comum; silêncio, indiretas e monitoramento sem verbalização não ajudam. | EN: Specific, assertive communication and confirmation improve shared understanding; silence, hints, and unspoken monitoring do not."
       },
       {
-        "q": "PT: Which statement best separates requirement from guidance? | EN: Which statement best separates a requirement from guidance? | English: Which statement best separates a requirement from guidance?",
+        "q": "PT: Qual afirmação melhor distingue requisito de orientação? | EN: Which statement best separates a requirement from guidance?",
         "options": [
-          "PT: Every FAA publication is legally binding in the same way | EN: Every FAA publication is legally binding in the same way",
-          "PT: The eCFR contains regulations; FAA guidance helps explain acceptable methods but its status must be checked | EN: The eCFR contains regulations; FAA guidance helps explain acceptable methods but its status must be checked",
-          "PT: An operator's custom overrides eCFR | EN: An operator's custom overrides eCFR",
-          "PT: A test standard is always a regulation | EN: A test standard is always a regulation"
+          "PT: Toda publicação FAA é juridicamente vinculante da mesma maneira | EN: Every FAA publication is legally binding in the same way",
+          "PT: O eCFR contém regulamentos; a orientação FAA ajuda a explicar métodos aceitáveis, mas seu status deve ser verificado | EN: The eCFR contains regulations; FAA guidance helps explain acceptable methods but its status must be checked",
+          "PT: O costume de um operador prevalece sobre o eCFR | EN: An operator's custom overrides eCFR",
+          "PT: Um padrão de avaliação é sempre um regulamento | EN: A test standard is always a regulation"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Regulation, guidance, standards, and operator procedures have different roles. Read status and applicability rather than treating all publications alike. | EN: Regra, orientação, padrão e procedimento têm funções distintas. Verifique status e aplicabilidade em vez de tratá-los como equivalentes."
+        "explanation": "PT: Regra, orientação, padrão e procedimento têm funções distintas. Verifique status e aplicabilidade em vez de tratá-los como equivalentes. | EN: Regulation, guidance, standards, and operator procedures have different roles. Read status and applicability rather than treating all publications alike."
       }
     ],
     [
       {
         "q": "PT: Um voo de passageiros nos EUA é anunciado como “charter”. Como determinar a parte aplicável? | EN: A scheduled U.S. passenger flight is marketed as a “charter.” What do you do to determine the governing part?",
         "options": [
-          "PT: Treat the word charter as conclusive | EN: Treat the word charter as conclusive",
-          "PT: Classify the actual service, certificate holder, authority, definitions, and exceptions | EN: Classify the actual service, certificate holder, authority, definitions, and exceptions",
-          "PT: Choose Part 135 because it is simpler | EN: Choose Part 135 because it is simpler",
-          "PT: Choose Part 121 because passengers are carried | EN: Choose Part 121 because passengers are carried"
+          "PT: Tratar a palavra charter como conclusiva | EN: Treat the word charter as conclusive",
+          "PT: Classificar o serviço real, o titular do certificado, a autoridade, as definições e as exceções | EN: Classify the actual service, certificate holder, authority, definitions, and exceptions",
+          "PT: Escolher a Part 135 por ser mais simples | EN: Choose Part 135 because it is simpler",
+          "PT: Escolher a Part 121 porque há passageiros a bordo | EN: Choose Part 121 because passengers are carried"
         ],
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: The label does not decide. Analyze facts, authority and rule definitions; neither convenience nor passenger carriage alone settles classification. | EN: O rótulo não decide. Analise fatos, autoridade e definições; conveniência ou transporte de passageiros isoladamente não classificam a operação."
+        "explanation": "PT: O rótulo não decide. Analise fatos, autoridade e definições; conveniência ou transporte de passageiros isoladamente não classificam a operação. | EN: The label does not decide. Analyze facts, authority and rule definitions; neither convenience nor passenger carriage alone settles classification."
       },
       {
         "q": "PT: A pasta de despacho identifica o Operador A, mas o briefing e os documentos da aeronave identificam o Operador B. O que fazer? | EN: A dispatcher packet lists Operator A, but the briefing and aircraft paperwork identify Operator B. What is your action?",
         "options": [
-          "PT: Accept whichever name is familiar | EN: Accept whichever name is familiar",
-          "PT: Clarify the certificate holder, operational control, and aircraft/operation coverage before departure | EN: Clarify the certificate holder, operational control, and aircraft/operation coverage before departure",
-          "PT: Depart under Part 91 | EN: Depart under Part 91",
-          "PT: Ask the passengers which company they booked | EN: Ask the passengers which company they booked"
+          "PT: Aceitar o nome que for familiar | EN: Accept whichever name is familiar",
+          "PT: Esclarecer o titular do certificado, o controle operacional e a cobertura da aeronave/operação antes da partida | EN: Clarify the certificate holder, operational control, and aircraft/operation coverage before departure",
+          "PT: Partir sob a Part 91 | EN: Depart under Part 91",
+          "PT: Perguntar aos passageiros qual empresa contrataram | EN: Ask the passengers which company they booked"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Resolve the mismatch through the authorized operational chain before flight; familiarity, passenger booking, or switching parts does not establish authority. | EN: Resolva a divergência com a cadeia autorizada antes do voo; familiaridade, reserva do passageiro ou trocar de parte não comprova autoridade."
+        "explanation": "PT: Resolva a divergência com a cadeia autorizada antes do voo; familiaridade, reserva do passageiro ou trocar de parte não comprova autoridade. | EN: Resolve the mismatch through the authorized operational chain before flight; familiarity, passenger booking, or switching parts does not establish authority."
       },
       {
         "q": "PT: Um titular possui autoridade Part 135 para um serviço. O perfil proposto parece fora do escopo listado. O que o comandante deve fazer? | EN: A certificate holder has Part 135 authority for one service. The proposed flight profile appears outside the listed scope. What should the captain do?",
         "options": [
-          "PT: Assume the certificate covers all services | EN: Assume the certificate covers all services",
-          "PT: Pause and verify the authority and applicable rule with the authorized department | EN: Pause and verify the authority and applicable rule with the authorized department",
-          "PT: Proceed if the aircraft is capable | EN: Proceed if the aircraft is capable",
-          "PT: Use an AC as authorization | EN: Use an AC as authorization"
+          "PT: Presumir que o certificado abrange todos os serviços | EN: Assume the certificate covers all services",
+          "PT: Interromper e verificar a autoridade e a regra aplicável junto ao setor autorizado | EN: Pause and verify the authority and applicable rule with the authorized department",
+          "PT: Prosseguir se a aeronave for capaz | EN: Proceed if the aircraft is capable",
+          "PT: Usar uma AC como autorização | EN: Use an AC as authorization"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: The flight must fit the holder's actual authority; capability or guidance cannot expand it. Verify before operating. | EN: O voo deve caber na autoridade efetiva do titular; capacidade da aeronave ou orientação não amplia essa autoridade. Verifique antes de operar."
+        "explanation": "PT: O voo deve caber na autoridade efetiva do titular; capacidade da aeronave ou orientação não amplia essa autoridade. Verifique antes de operar. | EN: The flight must fit the holder's actual authority; capability or guidance cannot expand it. Verify before operating."
       },
       {
         "q": "PT: Um voo doméstico Part 121 recebe informação de piora no destino após a liberação. Qual é a melhor resposta? | EN: A Part 121 domestic crew is told by dispatch that destination conditions worsened after release. What is the best response?",
         "options": [
-          "PT: Ignore it because release is complete | EN: Ignore it because release is complete",
-          "PT: Confirm details, assess effects, coordinate with dispatcher, and reassess options/release as required | EN: Confirm details, assess effects, coordinate with dispatcher, and reassess options/release as required",
-          "PT: Ask ATC to assume dispatch duties | EN: Ask ATC to assume dispatch duties",
-          "PT: Continue unless the runway is physically closed | EN: Continue unless the runway is physically closed"
+          "PT: Ignorar a informação porque a liberação foi concluída | EN: Ignore it because release is complete",
+          "PT: Confirmar os detalhes, avaliar os efeitos, coordenar com o despachante e reavaliar opções/liberação conforme exigido | EN: Confirm details, assess effects, coordinate with dispatcher, and reassess options/release as required",
+          "PT: Pedir ao ATC que assuma as funções do despachante | EN: Ask ATC to assume dispatch duties",
+          "PT: Continuar, a menos que a pista esteja fisicamente fechada | EN: Continue unless the runway is physically closed"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Material information calls for reassessment and coordination under rule/procedure; release completion and ATC clearance do not remove that need. | EN: Informação material exige reavaliação e coordenação conforme regra/procedimento; liberação concluída e autorização ATC não eliminam essa necessidade."
+        "explanation": "PT: Informação material exige reavaliação e coordenação conforme regra/procedimento; liberação concluída e autorização ATC não eliminam essa necessidade. | EN: Material information calls for reassessment and coordination under rule/procedure; release completion and ATC clearance do not remove that need."
       },
       {
         "q": "PT: Um examinador pergunta quem detém controle operacional em voo Part 135. Qual a melhor resposta? | EN: An examiner asks who has operational control on a Part 135 flight. What is the best answer?",
         "options": [
-          "PT: The customer who paid | EN: The customer who paid",
-          "PT: The certificate holder retains responsibility and designates an authorized person as required; apply the operator's system | EN: The certificate holder retains responsibility and designates an authorized person as required; apply the operator's system",
-          "PT: ATC whenever IFR | EN: ATC whenever IFR",
-          "PT: The pilot monitoring | EN: The pilot monitoring"
+          "PT: O cliente que pagou | EN: The customer who paid",
+          "PT: O titular do certificado mantém a responsabilidade e designa pessoa autorizada conforme exigido; aplique o sistema do operador | EN: The certificate holder retains responsibility and designates an authorized person as required; apply the operator's system",
+          "PT: O ATC sempre que o voo for IFR | EN: ATC whenever IFR",
+          "PT: O piloto que monitora | EN: The pilot monitoring"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Section 135.77 places responsibility on the certificate holder and requires designation as stated. Customer, ATC, or PM is not a substitute. | EN: A §135.77 atribui responsabilidade ao titular e prevê designação. Cliente, ATC ou PM não substitui essa estrutura."
+        "explanation": "PT: A §135.77 atribui responsabilidade ao titular e prevê designação. Cliente, ATC ou PM não substitui essa estrutura. | EN: Section 135.77 places responsibility on the certificate holder and requires designation as stated. Customer, ATC, or PM is not a substitute."
       },
       {
         "q": "PT: Dois pilotos discordam se uma operação é Part 121 ou Part 135. Qual é o próximo passo profissional? | EN: Two pilots disagree whether an operation is Part 121 or 135. What is the most professional next step?",
         "options": [
-          "PT: Use the more familiar rule without checking | EN: Use the more familiar rule without checking",
-          "PT: Identify facts and authority, then consult the exact applicability provision/authorized operations source | EN: Identify facts and authority, then consult the exact applicability provision/authorized operations source",
-          "PT: Let the senior pilot decide by rank | EN: Let the senior pilot decide by rank",
-          "PT: Assume the higher passenger count decides | EN: Assume the higher passenger count decides"
+          "PT: Usar a regra mais familiar sem verificar | EN: Use the more familiar rule without checking",
+          "PT: Identificar os fatos e a autoridade; depois consultar a disposição exata de aplicabilidade/fonte operacional autorizada | EN: Identify facts and authority, then consult the exact applicability provision/authorized operations source",
+          "PT: Deixar o piloto mais antigo decidir por hierarquia | EN: Let the senior pilot decide by rank",
+          "PT: Presumir que o maior número de passageiros determina a classificação | EN: Assume the higher passenger count decides"
         ],
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: Classification is based on rule and facts, not rank or a single datum. Resolve the uncertainty with authoritative sources before flight. | EN: A classificação depende da regra e dos fatos, não de hierarquia ou dado isolado. Resolva a dúvida em fonte autorizada antes do voo."
+        "explanation": "PT: A classificação depende da regra e dos fatos, não de hierarquia ou dado isolado. Resolva a dúvida em fonte autorizada antes do voo. | EN: Classification is based on rule and facts, not rank or a single datum. Resolve the uncertainty with authoritative sources before flight."
       },
       {
         "q": "PT: A liberação está assinada, mas a matrícula da aeronave não consta na lista operacional fornecida à tripulação. O que fazer? | EN: The release is signed, but the aircraft registration is not on the operational list supplied to the crew. What do you do?",
         "options": [
-          "PT: Treat the signature as sufficient | EN: Treat the signature as sufficient",
-          "PT: Verify aircraft inclusion and authority; hold departure until resolved | EN: Verify aircraft inclusion and authority; hold departure until resolved",
-          "PT: Ask maintenance to change the registration on paper | EN: Ask maintenance to change the registration on paper",
-          "PT: Depart and document later | EN: Depart and document later"
+          "PT: Considerar a assinatura suficiente | EN: Treat the signature as sufficient",
+          "PT: Verificar a inclusão da aeronave e a autoridade; manter a partida suspensa até resolver | EN: Verify aircraft inclusion and authority; hold departure until resolved",
+          "PT: Pedir à manutenção que altere a matrícula apenas no papel | EN: Ask maintenance to change the registration on paper",
+          "PT: Partir e documentar depois | EN: Depart and document later"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: A signature cannot cure an unresolved scope/configuration discrepancy. Verify through authorized process before departure. | EN: Uma assinatura não corrige divergência de escopo/configuração. Verifique pelo processo autorizado antes de partir."
+        "explanation": "PT: Uma assinatura não corrige divergência de escopo/configuração. Verifique pelo processo autorizado antes de partir. | EN: A signature cannot cure an unresolved scope/configuration discrepancy. Verify through authorized process before departure."
       },
       {
         "q": "PT: Um piloto afirma que Part 135 é “Part 91 mais alguns limites”. Como responder? | EN: A pilot says Part 135 is “Part 91 plus a few limits.” How should you respond?",
         "options": [
-          "PT: Agree; the statement is complete | EN: Agree; the statement is complete",
-          "PT: Explain that Part 135 has its own applicable rules and Part 91 provisions may interact; analyze the operation and specific provision | EN: Explain that Part 135 has its own applicable rules and Part 91 provisions may interact; analyze the operation and specific provision",
-          "PT: Say Part 91 never applies to a Part 135 flight | EN: Say Part 91 never applies to a Part 135 flight",
-          "PT: Say Part 135 always imposes the Part 121 rule | EN: Say Part 135 always imposes the Part 121 rule"
+          "PT: Concordar; a afirmação está completa | EN: Agree; the statement is complete",
+          "PT: Explicar que a Part 135 tem regras próprias e pode interagir com disposições da Part 91; analisar a operação e a disposição específica | EN: Explain that Part 135 has its own applicable rules and Part 91 provisions may interact; analyze the operation and specific provision",
+          "PT: Dizer que a Part 91 nunca se aplica a um voo Part 135 | EN: Say Part 91 never applies to a Part 135 flight",
+          "PT: Dizer que a Part 135 sempre impõe a regra da Part 121 | EN: Say Part 135 always imposes the Part 121 rule"
         ],
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: The relationship is provision- and operation-specific. Both absolute claims and the simplistic summary are inaccurate. | EN: A relação depende da operação e da regra específica. Tanto afirmações absolutas quanto o resumo simplista são imprecisos."
+        "explanation": "PT: A relação depende da operação e da regra específica. Tanto afirmações absolutas quanto o resumo simplista são imprecisos. | EN: The relationship is provision- and operation-specific. Both absolute claims and the simplistic summary are inaccurate."
       },
       {
         "q": "PT: Em um caso Part 121 suplementar, alguém diz que o despachante tem o mesmo papel formal das operações domésticas. O que fazer? | EN: In a Part 121 supplemental case, a crew member says the dispatcher shares the same formal role as in domestic operations. What should you do?",
         "options": [
-          "PT: Accept the assumption | EN: Accept the assumption",
-          "PT: Check the supplemental rules; identify PIC and Director of Operations responsibilities and any permitted delegation | EN: Check the supplemental rules; identify PIC and Director of Operations responsibilities and any permitted delegation",
-          "PT: Apply the domestic rule automatically | EN: Apply the domestic rule automatically",
-          "PT: Ignore operational control | EN: Ignore operational control"
+          "PT: Aceitar a suposição | EN: Accept the assumption",
+          "PT: Verificar as regras suplementares; identificar as responsabilidades do PIC e do diretor de operações e eventual delegação permitida | EN: Check the supplemental rules; identify PIC and Director of Operations responsibilities and any permitted delegation",
+          "PT: Aplicar automaticamente a regra doméstica | EN: Apply the domestic rule automatically",
+          "PT: Ignorar o controle operacional | EN: Ignore operational control"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Supplemental operational control has its own regulatory structure, including specified joint PIC/Director of Operations responsibility; do not import domestic duties automatically. | EN: O controle suplementar tem estrutura própria, incluindo responsabilidade conjunta específica do PIC e diretor de operações; não importe automaticamente os deveres domésticos."
+        "explanation": "PT: O controle suplementar tem estrutura própria, incluindo responsabilidade conjunta específica do PIC e diretor de operações; não importe automaticamente os deveres domésticos. | EN: Supplemental operational control has its own regulatory structure, including specified joint PIC/Director of Operations responsibility; do not import domestic duties automatically."
       },
       {
         "q": "PT: A tela de acompanhamento mostra a aeronave em rota, mas uma chamada prevista no procedimento Part 135 do operador está atrasada. Qual resposta é apropriada? | EN: A flight-following screen shows the aircraft safely en route, but a required check-in is overdue under the operator's Part 135 procedure. What is the appropriate response?",
         "options": [
-          "PT: Assume position tracking eliminates the procedure | EN: Assume position tracking eliminates the procedure",
-          "PT: Follow the applicable flight-locating procedure and escalate/report as specified | EN: Follow the applicable flight-locating procedure and escalate/report as specified",
-          "PT: Wait until fuel exhaustion | EN: Wait until fuel exhaustion",
-          "PT: Ask passengers to call operations | EN: Ask passengers to call operations"
+          "PT: Presumir que o rastreamento da posição elimina o procedimento | EN: Assume position tracking eliminates the procedure",
+          "PT: Seguir o procedimento aplicável de localização do voo e escalar/relatar conforme previsto | EN: Follow the applicable flight-locating procedure and escalate/report as specified",
+          "PT: Esperar até esgotar o combustível | EN: Wait until fuel exhaustion",
+          "PT: Pedir aos passageiros que telefonem para operações | EN: Ask passengers to call operations"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Tracking technology does not automatically replace applicable flight-locating obligations or procedures; follow and escalate through the system. | EN: Rastreamento não substitui automaticamente obrigações ou procedimentos aplicáveis de localização do voo; siga e escale pelo sistema."
+        "explanation": "PT: Rastreamento não substitui automaticamente obrigações ou procedimentos aplicáveis de localização do voo; siga e escale pelo sistema. | EN: Tracking technology does not automatically replace applicable flight-locating obligations or procedures; follow and escalate through the system."
       },
       {
         "q": "PT: O comandante deseja partir após mudança material de meteorologia e pista no destino. Qual é o melhor processo decisório? | EN: A captain wants to depart after new destination weather and runway information materially changed. What is the best decision process?",
         "options": [
-          "PT: Use the original briefing only | EN: Use the original briefing only",
-          "PT: Confirm source, reassess weather/runway/fuel/alternate and operator criteria, coordinate and update the release/plan as required | EN: Confirm source, reassess weather/runway/fuel/alternate and operator criteria, coordinate and update the release/plan as required",
-          "PT: Rely only on ATC clearance | EN: Rely only on ATC clearance",
-          "PT: Depart if the passengers agree | EN: Depart if the passengers agree"
+          "PT: Usar somente o briefing original | EN: Use the original briefing only",
+          "PT: Confirmar a fonte, reavaliar meteorologia/pista/combustível/alternado e critérios do operador, coordenar e atualizar a liberação/plano conforme necessário | EN: Confirm source, reassess weather/runway/fuel/alternate and operator criteria, coordinate and update the release/plan as required",
+          "PT: Confiar somente na autorização ATC | EN: Rely only on ATC clearance",
+          "PT: Partir se os passageiros concordarem | EN: Depart if the passengers agree"
         ],
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: The changed situation requires a complete operational reassessment and required coordination; ATC or passenger consent does not replace it. | EN: A mudança exige reavaliação operacional e coordenação exigida; autorização ATC ou consentimento do passageiro não substituem isso."
+        "explanation": "PT: A mudança exige reavaliação operacional e coordenação exigida; autorização ATC ou consentimento do passageiro não substituem isso. | EN: The changed situation requires a complete operational reassessment and required coordination; ATC or passenger consent does not replace it."
       },
       {
         "q": "PT: Na aproximação, o PM percebe tendência instável enquanto o comandante está com alta carga de trabalho. O que o PM deve fazer? | EN: During approach, the PM sees an unstable trend while the captain is task-saturated. What should the PM do?",
         "options": [
-          "PT: Remain silent to avoid distraction | EN: Remain silent to avoid distraction",
-          "PT: State the specific threat, call the operator's criterion, and make the required intervention/response | EN: State the specific threat, call the operator's criterion, and make the required intervention/response",
-          "PT: Wait to mention it in the debrief | EN: Wait to mention it in the debrief",
-          "PT: Take control without communicating in every case | EN: Take control without communicating in every case"
+          "PT: Permanecer em silêncio para evitar distração | EN: Remain silent to avoid distraction",
+          "PT: Verbalizar a ameaça específica, citar o critério do operador e executar a intervenção/resposta prevista | EN: State the specific threat, call the operator's criterion, and make the required intervention/response",
+          "PT: Esperar para mencionar isso no debriefing | EN: Wait to mention it in the debrief",
+          "PT: Assumir o controle sem se comunicar em todos os casos | EN: Take control without communicating in every case"
         ],
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: CRM calls for timely, specific challenge and action consistent with procedures; silence or an uncommunicated takeover is not the default response. | EN: CRM pede contestação específica e ação oportuna conforme procedimento; silêncio ou tomada de controle sem comunicação não é resposta padrão."
+        "explanation": "PT: CRM pede contestação específica e ação oportuna conforme procedimento; silêncio ou tomada de controle sem comunicação não é resposta padrão. | EN: CRM calls for timely, specific challenge and action consistent with procedures; silence or an uncommunicated takeover is not the default response."
       },
       {
         "q": "PT: O comandante pergunta se uma AC cria uma regra obrigatória para o voo. Qual resposta é adequada? | EN: The captain asks whether an AC creates a mandatory rule for the flight. What is the sound answer?",
         "options": [
-          "PT: Always yes | EN: Always yes",
-          "PT: Usually it is guidance; inspect its status and whether a requirement is incorporated or otherwise binding | EN: Usually it is guidance; inspect its status and whether a requirement is incorporated or otherwise binding",
-          "PT: No FAA document besides Part 91 matters | EN: No FAA document besides Part 91 matters",
-          "PT: It overrides the operator's OpSpecs | EN: It overrides the operator's OpSpecs"
+          "PT: Sim, sempre | EN: Always yes",
+          "PT: Em geral, é orientação; verifique seu status e se algum requisito foi incorporado ou se tornou vinculante por outro meio | EN: Usually it is guidance; inspect its status and whether a requirement is incorporated or otherwise binding",
+          "PT: Nenhum documento FAA além da Part 91 é relevante | EN: No FAA document besides Part 91 matters",
+          "PT: Ela prevalece sobre as OpSpecs do operador | EN: It overrides the operator's OpSpecs"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: AC status must be read carefully; it usually offers guidance and does not override regulations or approved limitations. | EN: O status da AC deve ser verificado; normalmente orienta e não prevalece sobre regra ou limitação aprovada."
+        "explanation": "PT: O status da AC deve ser verificado; normalmente orienta e não prevalece sobre regra ou limitação aprovada. | EN: AC status must be read carefully; it usually offers guidance and does not override regulations or approved limitations."
       },
       {
         "q": "PT: Surge uma situação em voo que exige ação imediata, e o despachante está incomunicável. O que o PIC deve fazer? | EN: A material problem develops in flight and immediate action is needed. The dispatcher cannot be reached. What should the PIC do?",
         "options": [
-          "PT: Wait indefinitely for concurrence | EN: Wait indefinitely for concurrence",
-          "PT: Take action authorized/needed under applicable emergency provisions, then communicate and report as required | EN: Take action authorized/needed under applicable emergency provisions, then communicate and report as required",
-          "PT: Continue to destination to avoid paperwork | EN: Continue to destination to avoid paperwork",
-          "PT: Let ATC become PIC | EN: Let ATC become PIC"
+          "PT: Esperar indefinidamente por concordância | EN: Wait indefinitely for concurrence",
+          "PT: Agir conforme autorizado/necessário pelas disposições de emergência aplicáveis; depois comunicar e relatar conforme exigido | EN: Take action authorized/needed under applicable emergency provisions, then communicate and report as required",
+          "PT: Continuar ao destino para evitar documentação | EN: Continue to destination to avoid paperwork",
+          "PT: Deixar o ATC assumir como PIC | EN: Let ATC become PIC"
         ],
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: The PIC must act as necessary under applicable emergency authority and complete required communication/reporting; delay or abdication is inappropriate. | EN: O PIC deve agir conforme necessário sob autoridade aplicável de emergência e cumprir comunicação/relato exigidos; demora ou abdicação são inadequadas."
+        "explanation": "PT: O PIC deve agir conforme necessário sob autoridade aplicável de emergência e cumprir comunicação/relato exigidos; demora ou abdicação são inadequadas. | EN: The PIC must act as necessary under applicable emergency authority and complete required communication/reporting; delay or abdication is inappropriate."
       },
       {
         "q": "PT: Durante voo Part 135, o destino fecha temporariamente e o responsável autorizado oferece alternativa; o PM alerta sobre margem de combustível em deterioração. Qual é a melhor conduta? | EN: During a Part 135 mission, a new restriction removes the planned destination. The authorized operations person offers an alternate, but the PM flags a deteriorating fuel margin. What is the best course?",
         "options": [
-          "PT: Accept the alternate automatically because operations suggested it | EN: Accept the alternate automatically because operations suggested it",
-          "PT: Verify fuel and conditions, communicate the concern, assess options, and decide under PIC/operator responsibilities | EN: Verify fuel and conditions, communicate the concern, assess options, and decide under PIC/operator responsibilities",
-          "PT: Ignore the PM because the operations person is authorized | EN: Ignore the PM because the operations person is authorized",
-          "PT: Continue to the original destination regardless | EN: Continue to the original destination regardless"
+          "PT: Aceitar automaticamente o alternado porque operações o sugeriu | EN: Accept the alternate automatically because operations suggested it",
+          "PT: Verificar combustível e condições, comunicar a preocupação, avaliar opções e decidir conforme as responsabilidades do PIC/operador | EN: Verify fuel and conditions, communicate the concern, assess options, and decide under PIC/operator responsibilities",
+          "PT: Ignorar o PM porque a pessoa de operações é autorizada | EN: Ignore the PM because the operations person is authorized",
+          "PT: Continuar ao destino original de qualquer maneira | EN: Continue to the original destination regardless"
         ],
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Coordination does not replace the crew's safety assessment. Confirm facts, communicate, and choose a compliant safe option; neither automatic acceptance nor ignoring a concern is sound. | EN: Coordenação não substitui a avaliação de segurança da tripulação. Confirme fatos, comunique e escolha opção segura e conforme; aceitar automaticamente ou ignorar preocupação é inadequado."
+        "explanation": "PT: Coordenação não substitui a avaliação de segurança da tripulação. Confirme fatos, comunique e escolha opção segura e conforme; aceitar automaticamente ou ignorar preocupação é inadequado. | EN: Coordination does not replace the crew's safety assessment. Confirm facts, communicate, and choose a compliant safe option; neither automatic acceptance nor ignoring a concern is sound."
       },
       {
         "q": "PT: O comandante diz que a escala comercial justifica continuar apesar de uma divergência de autoridade não resolvida. O que deve fazer o primeiro oficial? | EN: The captain believes the commercial schedule justifies continuing despite an unresolved authority discrepancy. What should the first officer do?",
         "options": [
-          "PT: Remain silent because schedule pressure is management's decision | EN: Remain silent because schedule pressure is management's decision",
-          "PT: State the specific unresolved authority issue and request resolution before operation | EN: State the specific unresolved authority issue and request resolution before operation",
-          "PT: Record it privately after departure | EN: Record it privately after departure",
-          "PT: Ask ATC whether the company is certified | EN: Ask ATC whether the company is certified"
+          "PT: Permanecer em silêncio porque a pressão da escala é decisão da gestão | EN: Remain silent because schedule pressure is management's decision",
+          "PT: Informar a questão específica de autoridade ainda não resolvida e solicitar solução antes da operação | EN: State the specific unresolved authority issue and request resolution before operation",
+          "PT: Registrar em particular após a partida | EN: Record it privately after departure",
+          "PT: Perguntar ao ATC se a empresa é certificada | EN: Ask ATC whether the company is certified"
         ],
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: A specific challenge and resolution through authorized channels address the risk. Schedule pressure and ATC cannot establish certificate authority. | EN: Contestação específica e resolução pelos canais autorizados tratam o risco. Pressão de horário e ATC não comprovam autoridade do certificado."
+        "explanation": "PT: Contestação específica e resolução pelos canais autorizados tratam o risco. Pressão de horário e ATC não comprovam autoridade do certificado. | EN: A specific challenge and resolution through authorized channels address the risk. Schedule pressure and ATC cannot establish certificate authority."
       },
       {
         "q": "PT: Um checklist do operador parece inconsistente com requisito do eCFR. Qual é a ação correta? | EN: An operator's checklist appears inconsistent with the eCFR requirement. What is the correct action?",
         "options": [
-          "PT: Follow the checklist because it is newer | EN: Follow the checklist because it is newer",
-          "PT: Stop and resolve the conflict through the operator's compliance/operations channel; regulation governs and procedure must be corrected/applied consistently | EN: Stop and resolve the conflict through the operator's compliance/operations channel; regulation governs and procedure must be corrected/applied consistently",
-          "PT: Ignore both sources | EN: Ignore both sources",
-          "PT: Choose the shorter procedure | EN: Choose the shorter procedure"
+          "PT: Seguir o checklist por ser mais recente | EN: Follow the checklist because it is newer",
+          "PT: Interromper e resolver o conflito pelo canal de conformidade/operações do operador; o regulamento prevalece e o procedimento precisa ser corrigido/aplicado de forma coerente | EN: Stop and resolve the conflict through the operator's compliance/operations channel; regulation governs and procedure must be corrected/applied consistently",
+          "PT: Ignorar ambas as fontes | EN: Ignore both sources",
+          "PT: Escolher o procedimento mais curto | EN: Choose the shorter procedure"
         ],
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Operator procedure cannot override a regulation. Resolve the apparent conflict with the responsible organization before proceeding when feasible. | EN: Procedimento do operador não prevalece sobre regulamento. Resolva a aparente divergência com a organização responsável antes de prosseguir, quando possível."
+        "explanation": "PT: Procedimento do operador não prevalece sobre regulamento. Resolva a aparente divergência com a organização responsável antes de prosseguir, quando possível. | EN: Operator procedure cannot override a regulation. Resolve the apparent conflict with the responsible organization before proceeding when feasible."
       },
       {
         "q": "PT: O PM relata uma tendência, mas o comandante responde apenas “okay”. O que melhora o entendimento comum? | EN: The PM reports a trend, but the captain responds only “okay.” What improves shared understanding?",
         "options": [
-          "PT: No further action is needed | EN: No further action is needed",
-          "PT: Use closed-loop communication: acknowledge the concern, state decision/action, assign tasks, confirm and monitor | EN: Use closed-loop communication: acknowledge the concern, state decision/action, assign tasks, confirm and monitor",
-          "PT: The PM should stop monitoring | EN: The PM should stop monitoring",
-          "PT: Repeat the concern only after landing | EN: Repeat the concern only after landing"
+          "PT: Nenhuma outra ação é necessária | EN: No further action is needed",
+          "PT: Usar comunicação em circuito fechado: reconhecer a preocupação, declarar decisão/ação, atribuir tarefas, confirmar e monitorar | EN: Use closed-loop communication: acknowledge the concern, state decision/action, assign tasks, confirm and monitor",
+          "PT: O PM deve parar de monitorar | EN: The PM should stop monitoring",
+          "PT: Repetir a preocupação somente após o pouso | EN: Repeat the concern only after landing"
         ],
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Closed-loop communication verifies that the concern led to a shared plan. A vague acknowledgment alone may not establish understanding or action. | EN: Comunicação em circuito fechado confirma que a preocupação gerou plano comum. Um “okay” vago pode não definir entendimento nem ação."
+        "explanation": "PT: Comunicação em circuito fechado confirma que a preocupação gerou plano comum. Um “okay” vago pode não definir entendimento nem ação. | EN: Closed-loop communication verifies that the concern led to a shared plan. A vague acknowledgment alone may not establish understanding or action."
       },
       {
         "q": "PT: Uma pergunta oral omite a categoria operacional da aeronave e os dados do certificado. Como o candidato deve responder? | EN: An oral question omits the aircraft's operational category and certificate details. How should the applicant respond?",
         "options": [
-          "PT: Invent the likely category | EN: Invent the likely category",
-          "PT: State which facts are needed, explain how they affect applicability, and give conditional branches | EN: State which facts are needed, explain how they affect applicability, and give conditional branches",
-          "PT: Refuse to answer any regulatory question | EN: Refuse to answer any regulatory question",
-          "PT: Apply the strictest imaginable rule | EN: Apply the strictest imaginable rule"
+          "PT: Inventar a categoria provável | EN: Invent the likely category",
+          "PT: Indicar os fatos necessários, explicar como afetam a aplicabilidade e apresentar alternativas condicionais | EN: State which facts are needed, explain how they affect applicability, and give conditional branches",
+          "PT: Recusar-se a responder qualquer pergunta regulatória | EN: Refuse to answer any regulatory question",
+          "PT: Aplicar a regra mais rigorosa que se possa imaginar | EN: Apply the strictest imaginable rule"
         ],
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Recognizing missing facts and explaining conditional applicability demonstrates sound regulatory reasoning; invention and blanket assumptions do not. | EN: Reconhecer dados ausentes e explicar aplicabilidade condicional demonstra raciocínio regulatório; inventar fatos ou presumir tudo não."
+        "explanation": "PT: Reconhecer dados ausentes e explicar aplicabilidade condicional demonstra raciocínio regulatório; inventar fatos ou presumir tudo não. | EN: Recognizing missing facts and explaining conditional applicability demonstrates sound regulatory reasoning; invention and blanket assumptions do not."
       },
       {
         "q": "PT: Após uma discrepância operacional reportável, um gerente sugere evitar o sistema de reporte para proteger indicadores. Qual é a resposta profissional? | EN: After a reportable operational discrepancy, a manager suggests avoiding the safety reporting system to protect performance metrics. What is the professional response?",
         "options": [
-          "PT: Agree because no accident occurred | EN: Agree because no accident occurred",
-          "PT: Use the applicable reporting and safety-learning process, preserving accurate facts and following policy/rule | EN: Use the applicable reporting and safety-learning process, preserving accurate facts and following policy/rule",
-          "PT: Delete the discrepancy from the log | EN: Delete the discrepancy from the log",
-          "PT: Post crew names publicly | EN: Post crew names publicly"
+          "PT: Concordar porque não ocorreu acidente | EN: Agree because no accident occurred",
+          "PT: Usar o processo aplicável de reporte e aprendizagem de segurança, preservando os fatos com precisão e seguindo as políticas/regras | EN: Use the applicable reporting and safety-learning process, preserving accurate facts and following policy/rule",
+          "PT: Excluir a divergência do registro | EN: Delete the discrepancy from the log",
+          "PT: Publicar os nomes da tripulação | EN: Post crew names publicly"
         ],
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Accurate reporting and learning should follow applicable rules and operator systems. Suppression undermines safety; public exposure is not the proper alternative. | EN: Relato fiel e aprendizagem seguem regras e sistemas do operador. Suprimir prejudica segurança; exposição pública não é alternativa adequada."
+        "explanation": "PT: Relato fiel e aprendizagem seguem regras e sistemas do operador. Suprimir prejudica segurança; exposição pública não é alternativa adequada. | EN: Accurate reporting and learning should follow applicable rules and operator systems. Suppression undermines safety; public exposure is not the proper alternative."
       }
     ]
   ],
