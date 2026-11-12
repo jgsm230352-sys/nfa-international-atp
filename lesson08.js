@@ -39,7 +39,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: A regra geral da Part 91 não concede certificado nem autoridade de transporte aéreo. Remuneração, ATP ou publicidade não autorizam a operação por si só. | EN: Part 91 supplies general operating rules, not an air-carrier certificate or operating authority. Payment, an ATP, or marketing does not independently authorize an operation."
+        "explanation": "PT: A regra geral da Part 91 não concede certificado nem autoridade de transporte aéreo. Remuneração, ATP ou publicidade não autorizam a operação por si só.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G. | EN: Part 91 supplies general operating rules, not an air-carrier certificate or operating authority. Payment, an ATP, or marketing does not independently authorize an operation.\nFAA reference: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+          "en": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G."
+        }
       },
       {
         "q": "PT: Qual é a base mais sólida para classificar um voo segundo as Parts 121 ou 135? | EN: What is the soundest basis for classifying a flight under Parts 121 or 135?",
@@ -52,7 +56,11 @@ window.nfaLesson08Data = {
         "answer": 2,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: A classificação decorre dos fatos, definições, autoridade e exceções. Rótulos comerciais, tamanho isolado ou preferência não bastam. | EN: Classification follows the facts, definitions, authority, and exceptions. Marketing labels, size alone, and preference cannot determine it."
+        "explanation": "PT: A classificação decorre dos fatos, definições, autoridade e exceções. Rótulos comerciais, tamanho isolado ou preferência não bastam.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G. | EN: Classification follows the facts, definitions, authority, and exceptions. Marketing labels, size alone, and preference cannot determine it.\nFAA reference: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+          "en": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G."
+        }
       },
       {
         "q": "PT: Qual é o papel da Part 119 nesta aula? | EN: What role does Part 119 play in this lesson?",
@@ -65,7 +73,11 @@ window.nfaLesson08Data = {
         "answer": 0,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: A Part 119 estrutura certificação e autoridade do operador. Não substitui as regras operacionais nem torna o certificado universal. | EN: Part 119 frames operator certification and authority. It neither replaces operating rules nor makes a certificate universal."
+        "explanation": "PT: A Part 119 estrutura certificação e autoridade do operador. Não substitui as regras operacionais nem torna o certificado universal.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G. | EN: Part 119 frames operator certification and authority. It neither replaces operating rules nor makes a certificate universal.\nFAA reference: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+          "en": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G."
+        }
       },
       {
         "q": "PT: Qual afirmação sobre a autoridade do titular do certificado está correta? | EN: Which statement about a certificate holder's authority is correct?",
@@ -78,7 +90,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: A autoridade possui escopo e limites. Licença do piloto, contrato de leasing ou menção genérica a OpSpecs não a ampliam. | EN: Authority has defined scope and limitations; a pilot certificate, lease, or vague reference to OpSpecs cannot expand it."
+        "explanation": "PT: A autoridade possui escopo e limites. Licença do piloto, contrato de leasing ou menção genérica a OpSpecs não a ampliam.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Authority has defined scope and limitations; a pilot certificate, lease, or vague reference to OpSpecs cannot expand it.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Qual é o melhor primeiro passo quando a escala indica um operador diferente do briefing? | EN: What is the best first step when an assignment lists a different operator from the briefing?",
@@ -91,7 +107,11 @@ window.nfaLesson08Data = {
         "answer": 2,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Confirme o titular responsável e a estrutura de controle antes do voo. Semelhança de marcas ou decolar não resolve a dúvida. | EN: Confirm the accountable certificate holder and operational-control structure before flight. Brand similarity and departure do not resolve authority."
+        "explanation": "PT: Confirme o titular responsável e a estrutura de controle antes do voo. Semelhança de marcas ou decolar não resolve a dúvida.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Confirm the accountable certificate holder and operational-control structure before flight. Brand similarity and departure do not resolve authority.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Em geral, o que é uma Advisory Circular? | EN: An Advisory Circular generally does what?",
@@ -104,7 +124,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Uma AC normalmente orienta; verifique seu texto e eventual incorporação. Não prevalece sobre regra nem vira SOP automaticamente. | EN: An AC is guidance in general; check its language and any incorporation. It neither overrides regulation nor automatically becomes SOP."
+        "explanation": "PT: Uma AC normalmente orienta; verifique seu texto e eventual incorporação. Não prevalece sobre regra nem vira SOP automaticamente.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: An AC is guidance in general; check its language and any incorporation. It neither overrides regulation nor automatically becomes SOP.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Quais categorias da Part 121 são tratadas aqui? | EN: Which Part 121 categories are addressed here?",
@@ -117,7 +141,11 @@ window.nfaLesson08Data = {
         "answer": 0,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: Part 121 inclui operações domésticas, de bandeira e suplementares conforme definidas. Número de assentos ou rótulo charter não é teste completo. | EN: Part 121 includes domestic, flag, and supplemental operations as defined; seat count or charter label alone is not the full test."
+        "explanation": "PT: Part 121 inclui operações domésticas, de bandeira e suplementares conforme definidas. Número de assentos ou rótulo charter não é teste completo.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G. | EN: Part 121 includes domestic, flag, and supplemental operations as defined; seat count or charter label alone is not the full test.\nFAA reference: 14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Qual afirmação descreve melhor o escopo da Part 135 nesta aula? | EN: Which statement best describes Part 135 scope in this lesson?",
@@ -130,7 +158,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: Part 135 inclui operações commuter e on-demand definidas. Não é regra geral para todo voo fora de linha aérea nem regime eletivo. | EN: Part 135 includes defined commuter and on-demand operations. It is not a catch-all for every non-airline flight or an elective regime."
+        "explanation": "PT: Part 135 inclui operações commuter e on-demand definidas. Não é regra geral para todo voo fora de linha aérea nem regime eletivo.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G. | EN: Part 135 includes defined commuter and on-demand operations. It is not a catch-all for every non-airline flight or an elective regime.\nFAA reference: 14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Por que o piloto não deve transferir automaticamente para a Part 135 um requisito da Part 121? | EN: Why should a pilot avoid automatically transferring a Part 121 requirement to Part 135?",
@@ -143,7 +175,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: É preciso verificar a aplicabilidade de cada regra. Part 135 também impõe deveres, e manuais não substituem regulamentos. | EN: Different provisions and applicability must be checked; Part 135 still has duties, and manuals cannot displace regulation."
+        "explanation": "PT: É preciso verificar a aplicabilidade de cada regra. Part 135 também impõe deveres, e manuais não substituem regulamentos.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G. | EN: Different provisions and applicability must be checked; Part 135 still has duties, and manuals cannot displace regulation.\nFAA reference: 14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Nas operações domésticas/de bandeira Part 121, qual afirmação descreve melhor PIC e despachante? | EN: In Part 121 domestic/flag operations, which statement about the PIC and dispatcher is most accurate?",
@@ -156,7 +192,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: As regras distribuem deveres entre PIC e despachante; a liberação não elimina o papel do PIC, e não há poder genérico de sobrepor ação emergencial. | EN: Rules allocate duties to PIC and dispatcher; release does not eliminate PIC responsibility, and no blanket dispatcher override exists."
+        "explanation": "PT: As regras distribuem deveres entre PIC e despachante; a liberação não elimina o papel do PIC, e não há poder genérico de sobrepor ação emergencial.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: Rules allocate duties to PIC and dispatcher; release does not eliminate PIC responsibility, and no blanket dispatcher override exists.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Nas operações suplementares, a §121.537 atribui responsabilidade conjunta específica a quem? | EN: For supplemental operations under §121.537, the rule assigns specified joint responsibility to whom?",
@@ -169,7 +209,11 @@ window.nfaLesson08Data = {
         "answer": 0,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: A regra atribui responsabilidades conjuntas específicas ao PIC e ao diretor de operações; outros agentes não substituem essa distribuição. | EN: The rule identifies PIC and Director of Operations for specified joint responsibility; other roles do not substitute for that allocation."
+        "explanation": "PT: A regra atribui responsabilidades conjuntas específicas ao PIC e ao diretor de operações; outros agentes não substituem essa distribuição.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: The rule identifies PIC and Director of Operations for specified joint responsibility; other roles do not substitute for that allocation.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Segundo a §135.77, quem permanece responsável pela operação Part 135? | EN: Under Part 135, who remains responsible for the operation under §135.77?",
@@ -182,7 +226,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: O titular do certificado continua responsável e designa pessoa autorizada conforme exigido. Cliente, ATC ou arrendador não assumem automaticamente esse papel. | EN: The certificate holder remains responsible and designates an authorized person as required; charter customer, ATC, and lessor do not automatically take that role."
+        "explanation": "PT: O titular do certificado continua responsável e designa pessoa autorizada conforme exigido. Cliente, ATC ou arrendador não assumem automaticamente esse papel.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: The certificate holder remains responsible and designates an authorized person as required; charter customer, ATC, and lessor do not automatically take that role.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: O que o piloto deve concluir diante de mudança material após uma liberação? | EN: What should a pilot infer from a material change after a release?",
@@ -195,7 +243,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: A liberação não congela as condições futuras. Mudanças materiais pedem reavaliação e coordenação; ATC ou pane não são os únicos gatilhos. | EN: A release does not make later conditions static; material changes require reassessment and coordination. ATC or aircraft malfunction is not the sole trigger."
+        "explanation": "PT: A liberação não congela as condições futuras. Mudanças materiais pedem reavaliação e coordenação; ATC ou pane não são os únicos gatilhos.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: A release does not make later conditions static; material changes require reassessment and coordination. ATC or aircraft malfunction is not the sole trigger.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Por que distinguir dispatch release de flight release? | EN: Why distinguish dispatch release from flight release?",
@@ -208,7 +260,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Os termos aparecem em contextos regulatórios diferentes e não são sinônimos universais; o formato do formulário não define a regra. | EN: The terms occur in different regulatory contexts and cannot be treated as universal synonyms; form appearance is not the governing distinction."
+        "explanation": "PT: Os termos aparecem em contextos regulatórios diferentes e não são sinônimos universais; o formato do formulário não define a regra.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: The terms occur in different regulatory contexts and cannot be treated as universal synonyms; form appearance is not the governing distinction.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Qual é a melhor forma geral de responder a um cenário oral Part 121/135? | EN: What is the best general way to answer a Part 121/135 oral scenario?",
@@ -221,7 +277,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Uma resposta completa identifica aplicabilidade, responsabilidade, ação e gatilho de revisão. Citação decorada ou suposição não demonstra aplicação. | EN: A complete response identifies applicability, responsibility, action, and review trigger. Memorized citation or assumptions do not demonstrate application."
+        "explanation": "PT: Uma resposta completa identifica aplicabilidade, responsabilidade, ação e gatilho de revisão. Citação decorada ou suposição não demonstra aplicação.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: A complete response identifies applicability, responsibility, action, and review trigger. Memorized citation or assumptions do not demonstrate application.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: O que significa possuir um certificado válido de operador? | EN: What does a valid operator certificate mean?",
@@ -234,7 +294,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: A validade do certificado não prova que toda missão ou aeronave está coberta; escopo e condições precisam ser conferidos. | EN: Certificate validity does not establish that every mission or aircraft is covered; scope and conditions matter."
+        "explanation": "PT: A validade do certificado não prova que toda missão ou aeronave está coberta; escopo e condições precisam ser conferidos.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Certificate validity does not establish that every mission or aircraft is covered; scope and conditions matter.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Como a tripulação deve tratar nova informação operacional relevante para a segurança? | EN: How should the crew treat new operational information that affects safety?",
@@ -247,7 +311,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Um ciclo disciplinado de informação permite reavaliar. Assinatura, relato tardio ou transferência total ao ATC não substituem o papel operacional da tripulação. | EN: A disciplined information loop supports reassessment. Signature, delayed reporting, or total transfer to ATC does not satisfy the crew's operational role."
+        "explanation": "PT: Um ciclo disciplinado de informação permite reavaliar. Assinatura, relato tardio ou transferência total ao ATC não substituem o papel operacional da tripulação.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: A disciplined information loop supports reassessment. Signature, delayed reporting, or total transfer to ATC does not satisfy the crew's operational role.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Qual afirmação sobre a autoridade em emergência é adequada? | EN: Which statement about emergency authority is appropriate?",
@@ -260,7 +328,11 @@ window.nfaLesson08Data = {
         "answer": 0,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: A autoridade de emergência atende a uma emergência real e continua sujeita às regras e comunicações aplicáveis. Atraso de escala não é emergência. | EN: Emergency authority addresses an actual emergency and remains subject to applicable provisions and reporting; schedule pressure is not an emergency."
+        "explanation": "PT: A autoridade de emergência atende a uma emergência real e continua sujeita às regras e comunicações aplicáveis. Atraso de escala não é emergência.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: Emergency authority addresses an actual emergency and remains subject to applicable provisions and reporting; schedule pressure is not an emergency.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Qual comportamento de CRM é apropriado em uma discussão sobre controle operacional? | EN: Which is an appropriate CRM behavior during an operational-control discussion?",
@@ -273,7 +345,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Comunicação específica, assertiva e confirmada melhora o entendimento comum; silêncio, indiretas e monitoramento sem verbalização não ajudam. | EN: Specific, assertive communication and confirmation improve shared understanding; silence, hints, and unspoken monitoring do not."
+        "explanation": "PT: Comunicação específica, assertiva e confirmada melhora o entendimento comum; silêncio, indiretas e monitoramento sem verbalização não ajudam.\nReferência FAA: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei). | EN: Specific, assertive communication and confirmation improve shared understanding; silence, hints, and unspoken monitoring do not.\nFAA reference: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law).",
+        "reference": {
+          "pt": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei).",
+          "en": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law)."
+        }
       },
       {
         "q": "PT: Qual afirmação melhor distingue requisito de orientação? | EN: Which statement best separates a requirement from guidance?",
@@ -286,7 +362,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Regra, orientação, padrão e procedimento têm funções distintas. Verifique status e aplicabilidade em vez de tratá-los como equivalentes. | EN: Regulation, guidance, standards, and operator procedures have different roles. Read status and applicability rather than treating all publications alike."
+        "explanation": "PT: Regra, orientação, padrão e procedimento têm funções distintas. Verifique status e aplicabilidade em vez de tratá-los como equivalentes.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Regulation, guidance, standards, and operator procedures have different roles. Read status and applicability rather than treating all publications alike.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       }
     ],
     [
@@ -301,7 +381,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: O rótulo não decide. Analise fatos, autoridade e definições; conveniência ou transporte de passageiros isoladamente não classificam a operação. | EN: The label does not decide. Analyze facts, authority and rule definitions; neither convenience nor passenger carriage alone settles classification."
+        "explanation": "PT: O rótulo não decide. Analise fatos, autoridade e definições; conveniência ou transporte de passageiros isoladamente não classificam a operação.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G. | EN: The label does not decide. Analyze facts, authority and rule definitions; neither convenience nor passenger carriage alone settles classification.\nFAA reference: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+          "en": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G."
+        }
       },
       {
         "q": "PT: A pasta de despacho identifica o Operador A, mas o briefing e os documentos da aeronave identificam o Operador B. O que fazer? | EN: A dispatcher packet lists Operator A, but the briefing and aircraft paperwork identify Operator B. What is your action?",
@@ -314,7 +398,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Resolva a divergência com a cadeia autorizada antes do voo; familiaridade, reserva do passageiro ou trocar de parte não comprova autoridade. | EN: Resolve the mismatch through the authorized operational chain before flight; familiarity, passenger booking, or switching parts does not establish authority."
+        "explanation": "PT: Resolva a divergência com a cadeia autorizada antes do voo; familiaridade, reserva do passageiro ou trocar de parte não comprova autoridade.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Resolve the mismatch through the authorized operational chain before flight; familiarity, passenger booking, or switching parts does not establish authority.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Um titular possui autoridade Part 135 para um serviço. O perfil proposto parece fora do escopo listado. O que o comandante deve fazer? | EN: A certificate holder has Part 135 authority for one service. The proposed flight profile appears outside the listed scope. What should the captain do?",
@@ -327,7 +415,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: O voo deve caber na autoridade efetiva do titular; capacidade da aeronave ou orientação não amplia essa autoridade. Verifique antes de operar. | EN: The flight must fit the holder's actual authority; capability or guidance cannot expand it. Verify before operating."
+        "explanation": "PT: O voo deve caber na autoridade efetiva do titular; capacidade da aeronave ou orientação não amplia essa autoridade. Verifique antes de operar.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: The flight must fit the holder's actual authority; capability or guidance cannot expand it. Verify before operating.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Um voo doméstico Part 121 recebe informação de piora no destino após a liberação. Qual é a melhor resposta? | EN: A Part 121 domestic crew is told by dispatch that destination conditions worsened after release. What is the best response?",
@@ -340,7 +432,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Informação material exige reavaliação e coordenação conforme regra/procedimento; liberação concluída e autorização ATC não eliminam essa necessidade. | EN: Material information calls for reassessment and coordination under rule/procedure; release completion and ATC clearance do not remove that need."
+        "explanation": "PT: Informação material exige reavaliação e coordenação conforme regra/procedimento; liberação concluída e autorização ATC não eliminam essa necessidade.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: Material information calls for reassessment and coordination under rule/procedure; release completion and ATC clearance do not remove that need.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Um examinador pergunta quem detém controle operacional em voo Part 135. Qual a melhor resposta? | EN: An examiner asks who has operational control on a Part 135 flight. What is the best answer?",
@@ -353,7 +449,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: A §135.77 atribui responsabilidade ao titular e prevê designação. Cliente, ATC ou PM não substitui essa estrutura. | EN: Section 135.77 places responsibility on the certificate holder and requires designation as stated. Customer, ATC, or PM is not a substitute."
+        "explanation": "PT: A §135.77 atribui responsabilidade ao titular e prevê designação. Cliente, ATC ou PM não substitui essa estrutura.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: Section 135.77 places responsibility on the certificate holder and requires designation as stated. Customer, ATC, or PM is not a substitute.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Dois pilotos discordam se uma operação é Part 121 ou Part 135. Qual é o próximo passo profissional? | EN: Two pilots disagree whether an operation is Part 121 or 135. What is the most professional next step?",
@@ -366,7 +466,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 0,
         "objective": "O1",
-        "explanation": "PT: A classificação depende da regra e dos fatos, não de hierarquia ou dado isolado. Resolva a dúvida em fonte autorizada antes do voo. | EN: Classification is based on rule and facts, not rank or a single datum. Resolve the uncertainty with authoritative sources before flight."
+        "explanation": "PT: A classificação depende da regra e dos fatos, não de hierarquia ou dado isolado. Resolva a dúvida em fonte autorizada antes do voo.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G. | EN: Classification is based on rule and facts, not rank or a single datum. Resolve the uncertainty with authoritative sources before flight.\nFAA reference: 14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G.",
+          "en": "14 CFR §§119.1, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Tasks E/G."
+        }
       },
       {
         "q": "PT: A liberação está assinada, mas a matrícula da aeronave não consta na lista operacional fornecida à tripulação. O que fazer? | EN: The release is signed, but the aircraft registration is not on the operational list supplied to the crew. What do you do?",
@@ -379,7 +483,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Uma assinatura não corrige divergência de escopo/configuração. Verifique pelo processo autorizado antes de partir. | EN: A signature cannot cure an unresolved scope/configuration discrepancy. Verify through authorized process before departure."
+        "explanation": "PT: Uma assinatura não corrige divergência de escopo/configuração. Verifique pelo processo autorizado antes de partir.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: A signature cannot cure an unresolved scope/configuration discrepancy. Verify through authorized process before departure.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Um piloto afirma que Part 135 é “Part 91 mais alguns limites”. Como responder? | EN: A pilot says Part 135 is “Part 91 plus a few limits.” How should you respond?",
@@ -392,7 +500,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 2,
         "objective": "O3",
-        "explanation": "PT: A relação depende da operação e da regra específica. Tanto afirmações absolutas quanto o resumo simplista são imprecisos. | EN: The relationship is provision- and operation-specific. Both absolute claims and the simplistic summary are inaccurate."
+        "explanation": "PT: A relação depende da operação e da regra específica. Tanto afirmações absolutas quanto o resumo simplista são imprecisos.\nReferência FAA: 14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G. | EN: The relationship is provision- and operation-specific. Both absolute claims and the simplistic summary are inaccurate.\nFAA reference: 14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§119.1, 119.21–119.23, 121.1 e 135.1; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§119.1, 119.21–119.23, 121.1, and 135.1; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Em um caso Part 121 suplementar, alguém diz que o despachante tem o mesmo papel formal das operações domésticas. O que fazer? | EN: In a Part 121 supplemental case, a crew member says the dispatcher shares the same formal role as in domestic operations. What should you do?",
@@ -405,7 +517,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: O controle suplementar tem estrutura própria, incluindo responsabilidade conjunta específica do PIC e diretor de operações; não importe automaticamente os deveres domésticos. | EN: Supplemental operational control has its own regulatory structure, including specified joint PIC/Director of Operations responsibility; do not import domestic duties automatically."
+        "explanation": "PT: O controle suplementar tem estrutura própria, incluindo responsabilidade conjunta específica do PIC e diretor de operações; não importe automaticamente os deveres domésticos.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: Supplemental operational control has its own regulatory structure, including specified joint PIC/Director of Operations responsibility; do not import domestic duties automatically.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: A tela de acompanhamento mostra a aeronave em rota, mas uma chamada prevista no procedimento Part 135 do operador está atrasada. Qual resposta é apropriada? | EN: A flight-following screen shows the aircraft safely en route, but a required check-in is overdue under the operator's Part 135 procedure. What is the appropriate response?",
@@ -418,7 +534,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: Rastreamento não substitui automaticamente obrigações ou procedimentos aplicáveis de localização do voo; siga e escale pelo sistema. | EN: Tracking technology does not automatically replace applicable flight-locating obligations or procedures; follow and escalate through the system."
+        "explanation": "PT: Rastreamento não substitui automaticamente obrigações ou procedimentos aplicáveis de localização do voo; siga e escale pelo sistema.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: Tracking technology does not automatically replace applicable flight-locating obligations or procedures; follow and escalate through the system.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: O comandante deseja partir após mudança material de meteorologia e pista no destino. Qual é o melhor processo decisório? | EN: A captain wants to depart after new destination weather and runway information materially changed. What is the best decision process?",
@@ -431,7 +551,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 3,
         "objective": "O4",
-        "explanation": "PT: A mudança exige reavaliação operacional e coordenação exigida; autorização ATC ou consentimento do passageiro não substituem isso. | EN: The changed situation requires a complete operational reassessment and required coordination; ATC or passenger consent does not replace it."
+        "explanation": "PT: A mudança exige reavaliação operacional e coordenação exigida; autorização ATC ou consentimento do passageiro não substituem isso.\nReferência FAA: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79. | EN: The changed situation requires a complete operational reassessment and required coordination; ATC or passenger consent does not replace it.\nFAA reference: 14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79.",
+        "reference": {
+          "pt": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77 e 135.79.",
+          "en": "14 CFR §§121.533, 121.535, 121.537, 121.591, 121.597, 121.601, 121.663, 135.77, and 135.79."
+        }
       },
       {
         "q": "PT: Na aproximação, o PM percebe tendência instável enquanto o comandante está com alta carga de trabalho. O que o PM deve fazer? | EN: During approach, the PM sees an unstable trend while the captain is task-saturated. What should the PM do?",
@@ -444,7 +568,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: CRM pede contestação específica e ação oportuna conforme procedimento; silêncio ou tomada de controle sem comunicação não é resposta padrão. | EN: CRM calls for timely, specific challenge and action consistent with procedures; silence or an uncommunicated takeover is not the default response."
+        "explanation": "PT: CRM pede contestação específica e ação oportuna conforme procedimento; silêncio ou tomada de controle sem comunicação não é resposta padrão.\nReferência FAA: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei). | EN: CRM calls for timely, specific challenge and action consistent with procedures; silence or an uncommunicated takeover is not the default response.\nFAA reference: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law).",
+        "reference": {
+          "pt": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei).",
+          "en": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law)."
+        }
       },
       {
         "q": "PT: O comandante pergunta se uma AC cria uma regra obrigatória para o voo. Qual resposta é adequada? | EN: The captain asks whether an AC creates a mandatory rule for the flight. What is the sound answer?",
@@ -457,7 +585,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: O status da AC deve ser verificado; normalmente orienta e não prevalece sobre regra ou limitação aprovada. | EN: AC status must be read carefully; it usually offers guidance and does not override regulations or approved limitations."
+        "explanation": "PT: O status da AC deve ser verificado; normalmente orienta e não prevalece sobre regra ou limitação aprovada.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: AC status must be read carefully; it usually offers guidance and does not override regulations or approved limitations.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: Surge uma situação em voo que exige ação imediata, e o despachante está incomunicável. O que o PIC deve fazer? | EN: A material problem develops in flight and immediate action is needed. The dispatcher cannot be reached. What should the PIC do?",
@@ -470,7 +602,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: O PIC deve agir conforme necessário sob autoridade aplicável de emergência e cumprir comunicação/relato exigidos; demora ou abdicação são inadequadas. | EN: The PIC must act as necessary under applicable emergency authority and complete required communication/reporting; delay or abdication is inappropriate."
+        "explanation": "PT: O PIC deve agir conforme necessário sob autoridade aplicável de emergência e cumprir comunicação/relato exigidos; demora ou abdicação são inadequadas.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: The PIC must act as necessary under applicable emergency authority and complete required communication/reporting; delay or abdication is inappropriate.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Durante voo Part 135, o destino fecha temporariamente e o responsável autorizado oferece alternativa; o PM alerta sobre margem de combustível em deterioração. Qual é a melhor conduta? | EN: During a Part 135 mission, a new restriction removes the planned destination. The authorized operations person offers an alternate, but the PM flags a deteriorating fuel margin. What is the best course?",
@@ -483,7 +619,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Coordenação não substitui a avaliação de segurança da tripulação. Confirme fatos, comunique e escolha opção segura e conforme; aceitar automaticamente ou ignorar preocupação é inadequado. | EN: Coordination does not replace the crew's safety assessment. Confirm facts, communicate, and choose a compliant safe option; neither automatic acceptance nor ignoring a concern is sound."
+        "explanation": "PT: Coordenação não substitui a avaliação de segurança da tripulação. Confirme fatos, comunique e escolha opção segura e conforme; aceitar automaticamente ou ignorar preocupação é inadequado.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: Coordination does not replace the crew's safety assessment. Confirm facts, communicate, and choose a compliant safe option; neither automatic acceptance nor ignoring a concern is sound.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: O comandante diz que a escala comercial justifica continuar apesar de uma divergência de autoridade não resolvida. O que deve fazer o primeiro oficial? | EN: The captain believes the commercial schedule justifies continuing despite an unresolved authority discrepancy. What should the first officer do?",
@@ -496,7 +636,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Contestação específica e resolução pelos canais autorizados tratam o risco. Pressão de horário e ATC não comprovam autoridade do certificado. | EN: A specific challenge and resolution through authorized channels address the risk. Schedule pressure and ATC cannot establish certificate authority."
+        "explanation": "PT: Contestação específica e resolução pelos canais autorizados tratam o risco. Pressão de horário e ATC não comprovam autoridade do certificado.\nReferência FAA: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei). | EN: A specific challenge and resolution through authorized channels address the risk. Schedule pressure and ATC cannot establish certificate authority.\nFAA reference: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law).",
+        "reference": {
+          "pt": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei).",
+          "en": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law)."
+        }
       },
       {
         "q": "PT: Um checklist do operador parece inconsistente com requisito do eCFR. Qual é a ação correta? | EN: An operator's checklist appears inconsistent with the eCFR requirement. What is the correct action?",
@@ -509,7 +653,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 1,
         "objective": "O2",
-        "explanation": "PT: Procedimento do operador não prevalece sobre regulamento. Resolva a aparente divergência com a organização responsável antes de prosseguir, quando possível. | EN: Operator procedure cannot override a regulation. Resolve the apparent conflict with the responsible organization before proceeding when feasible."
+        "explanation": "PT: Procedimento do operador não prevalece sobre regulamento. Resolva a aparente divergência com a organização responsável antes de prosseguir, quando possível.\nReferência FAA: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs). | EN: Operator procedure cannot override a regulation. Resolve the apparent conflict with the responsible organization before proceeding when feasible.\nFAA reference: 14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+        "reference": {
+          "pt": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs).",
+          "en": "14 CFR §§119.5, 119.21–119.23; ATP ACS FAA-S-ACS-11A, Task E.K14 (OpSpecs)."
+        }
       },
       {
         "q": "PT: O PM relata uma tendência, mas o comandante responde apenas “okay”. O que melhora o entendimento comum? | EN: The PM reports a trend, but the captain responds only “okay.” What improves shared understanding?",
@@ -522,7 +670,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Comunicação em circuito fechado confirma que a preocupação gerou plano comum. Um “okay” vago pode não definir entendimento nem ação. | EN: Closed-loop communication verifies that the concern led to a shared plan. A vague acknowledgment alone may not establish understanding or action."
+        "explanation": "PT: Comunicação em circuito fechado confirma que a preocupação gerou plano comum. Um “okay” vago pode não definir entendimento nem ação.\nReferência FAA: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei). | EN: Closed-loop communication verifies that the concern led to a shared plan. A vague acknowledgment alone may not establish understanding or action.\nFAA reference: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law).",
+        "reference": {
+          "pt": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei).",
+          "en": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law)."
+        }
       },
       {
         "q": "PT: Uma pergunta oral omite a categoria operacional da aeronave e os dados do certificado. Como o candidato deve responder? | EN: An oral question omits the aircraft's operational category and certificate details. How should the applicant respond?",
@@ -535,7 +687,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 4,
         "objective": "O5",
-        "explanation": "PT: Reconhecer dados ausentes e explicar aplicabilidade condicional demonstra raciocínio regulatório; inventar fatos ou presumir tudo não. | EN: Recognizing missing facts and explaining conditional applicability demonstrates sound regulatory reasoning; invention and blanket assumptions do not."
+        "explanation": "PT: Reconhecer dados ausentes e explicar aplicabilidade condicional demonstra raciocínio regulatório; inventar fatos ou presumir tudo não.\nReferência FAA: 14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G. | EN: Recognizing missing facts and explaining conditional applicability demonstrates sound regulatory reasoning; invention and blanket assumptions do not.\nFAA reference: 14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G.",
+        "reference": {
+          "pt": "14 CFR §§121.557 e 135.19, conforme aplicabilidade; ATP ACS FAA-S-ACS-11A, Task G.",
+          "en": "14 CFR §§121.557 and 135.19, as applicable; ATP ACS FAA-S-ACS-11A, Task G."
+        }
       },
       {
         "q": "PT: Após uma discrepância operacional reportável, um gerente sugere evitar o sistema de reporte para proteger indicadores. Qual é a resposta profissional? | EN: After a reportable operational discrepancy, a manager suggests avoiding the safety reporting system to protect performance metrics. What is the professional response?",
@@ -548,7 +704,11 @@ window.nfaLesson08Data = {
         "answer": 1,
         "chapter": 5,
         "objective": "O6",
-        "explanation": "PT: Relato fiel e aprendizagem seguem regras e sistemas do operador. Suprimir prejudica segurança; exposição pública não é alternativa adequada. | EN: Accurate reporting and learning should follow applicable rules and operator systems. Suppression undermines safety; public exposure is not the proper alternative."
+        "explanation": "PT: Relato fiel e aprendizagem seguem regras e sistemas do operador. Suprimir prejudica segurança; exposição pública não é alternativa adequada.\nReferência FAA: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei). | EN: Accurate reporting and learning should follow applicable rules and operator systems. Suppression undermines safety; public exposure is not the proper alternative.\nFAA reference: ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law).",
+        "reference": {
+          "pt": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13 e S1; AC 61-138A Change 1 (orientação, sem força de lei).",
+          "en": "ATP ACS FAA-S-ACS-11A, Task E.K8, K11–K13, and S1; AC 61-138A Change 1 (guidance, not law)."
+        }
       }
     ]
   ],
